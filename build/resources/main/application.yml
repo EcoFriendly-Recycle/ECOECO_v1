@@ -1,0 +1,22 @@
+# spring datasource config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/ecoeco
+    username: ohgiraffers
+    password: ohgiraffers
+
+# spring file upload config
+  servlet:
+    multipart:
+      #      location: C:/dev/lecture_code/spring-boot/chap07-file-upload
+      location: C:\dev\lecture_code\SEMIProject\ECOECO
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+# mybatis config
+mybatis:
+  mapper-locations: mappers/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+

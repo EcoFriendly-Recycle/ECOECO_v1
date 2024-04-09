@@ -1,0 +1,37 @@
+/* 페이지 여백 없에기 */
+html,body{margin: 0;padding: 0; width: 100%;}
+
+/* 페이지 틀(프로젝트 생성은 모두 동일)*/
+#wrap{max-width: 1440px;}/*전체 요소를 감싸는 요소 (margin: 0 auto 제거한 상태)*/ 
+header{width:100%; height: 200px; background-color: lightgray;}
+aside{width:30%; background-color: #37BD6D; float: left; min-width: 200px;}
+main{width: 70%; display: inline-block; padding: 100px;}
+footer{height: 100%; background-color: lightgray;}
+input[type=text] {width:100%; height: 50px; margin-top:30px; border-radius: 5px;}
+
+/* 사이드바 */
+.subwrap{display: flex;}
+aside{flex: 1; position: relative;}
+.sticky-area{position: sticky; top:20%;}
+.sticky-area ul{margin: 0; padding: 0; line-height: 50%;}
+.sticky-area ul li:nth-child(1){border-top:3px solid white;}
+.sticky-area ul li{display: block; height: 100px; border-bottom:3px solid white;  text-align: center; line-height: 100px; font-size: large; font-weight: bold;}
+
+
+/*프로젝트 생성 선택구역(공통 스타일)*/
+.main-title{font-size: xx-large; font-weight: bold; margin-bottom: 0;}
+.box{display: flex; flex-direction: column; position:relative; width:80%;  border-bottom: 2px solid black; padding: 50px;}
+.main-title{width:100%;font-size: xx-large; font-weight: 600; margin-bottom: 20px;}
+.maker__info{width: 100%; height:100%;}
+.maker__sub{width:100%; font-size: large; font-weight: bold; color: #878686; margin-top: 5px;}
+.maker__sub-title{width:100%; font-size: x-large; font-weight: 600; margin-bottom: 0;}
+.saveBtn-area{ width: 100%; height: 200px; text-align: center;}
+.saveBtn{ width: 300px; height:100px; margin-top:50px; border-radius: 10px; background-color: #37BD6D; border-style: none;}
+.saveBtn:hover{background-color:#36a362;}
+
+input[type=text] { width: 100%;}
+input[type=file] {width: 100%;}
+
+/* 현재 적용하지 않은 css(필요시 변경하여 사용예정) */
+/* .main-sub{font-size: large; font-weight: bold; color: #a6a6a6; margin-top: 5px;} */
+

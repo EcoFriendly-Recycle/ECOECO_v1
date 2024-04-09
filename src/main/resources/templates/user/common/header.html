@@ -1,0 +1,74 @@
+        <header>
+            <div class="top">
+               <button class="login ljBtn btn">로그인</button>
+               <button class="join  ljBtn btn">회원가입</button>
+               <button class="project btn">프로젝트 만들기</button>
+            </div>
+            <div class="middle">
+                <div class="logo">
+                    <img src="/images/user/common/ecoeco_logo.png" alt="에코에코 로고">
+                </div>
+            </div>
+            <div class="bottom">
+                <nav class="gnb">
+                    <ul>
+                        <li class="gnb-cate">카테고리</li>
+                        <li><a href="">인기</a></li>
+                        <li><a href="">신규</a></li>
+                        <li><a href="">마감임박</a></li>
+                        <li><a href="">오픈예정</a></li>
+                        <li><a href="">커뮤니티</a></li>
+                        <li><input type="text" class="search" placeholder="🔍&nbsp; Search"></li>
+                    </ul>
+                    <div class="sub-category-area">
+                        <ul class="sub-category">
+                            <li>카테고리1</li>
+                            <li>카테고리2</li>
+                            <li>카테고리3</li>
+                            <li>카테고리4</li>
+                            <li>카테고리5</li>
+                            <li>카테고리6</li>
+                            <li>카테고리7</li>
+                            <li>카테고리8</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <script>
+            const gnbCate = document.querySelector('.gnb-cate');
+            const subCategoryArea = document.querySelector('.sub-category-area');
+
+            // gnbCate에 마우스가 올라갔을 때
+            gnbCate.addEventListener('mouseover', function() {
+                subCategoryArea.style.display = 'block';
+            });
+
+            // gnbCate에서 마우스가 떠났을 때
+            gnbCate.addEventListener('mouseout', function(event) {
+                // 마우스 이벤트가 .gnb-cate 및 .sub-category-area 영역을 벗어나지 않았을 때에만.sub-category-area를 유지합니다.
+                console.log(event.relatedTarget);
+                if (!event.relatedTarget || !event.relatedTarget.closest('.sub-category-area')) {
+                    subCategoryArea.style.display = 'none';
+                }
+            });
+
+            // subCategoryArea에 마우스가 올라갔을 때
+            subCategoryArea.addEventListener('mouseover', function() {
+                subCategoryArea.style.display = 'block';
+            });
+
+            // subCategoryArea에서 마우스가 떠났을 때
+            subCategoryArea.addEventListener('mouseout', function(event) {
+                console.log(event.relatedTarget);
+                // 마우스 이벤트가 .gnb-cate 영역을 벗어나지 않았을 때에만 .sub-category-area를 유지합니다.
+                if (!event.relatedTarget || !event.relatedTarget.closest('.gnb-cate')) {
+                    subCategoryArea.style.display = 'none';
+                }
+            });
+
+            // mouseover 했을떄 relatedTarget -> 현재 mouseover 된 요소 직전에 mouseevent가 발생한 요소를 가르킴
+            // mouseout 했을떄 relatedTarget ->  target한 요소에서 빠져나왔을때  가르키는 요소를 가르킴
+        </script>

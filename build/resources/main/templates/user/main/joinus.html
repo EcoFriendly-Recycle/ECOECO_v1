@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOECO 회원가입</title>
+
+    <link rel="stylesheet" href="/resources/static/css/user/main/joinus.css/">
+
+</head>
+<body>
+<header style="height: 203px; width: 1440px; background-color: green;">
+    <div class="middle">
+        <div class="logo">
+            <img src="Header/ecoeco_logo.png/" alt="에코에코 로고">
+        </div>
+    </div>
+</header>
+
+<main class=joinusMain style="width: 1440px;">
+    <div>
+        <h2>회원가입</h2>
+        <h4>회원이 되어 다양한 혜택을 받으세요😁</h4>
+        <!-- 아이디 입력 -->
+        <div >
+            아이디<br>
+            <input class="joinus-id" type="text" placeholder="아이디 입력(6~20자)"/>
+            <button style="height: 30px; background-color: #47AD57; border-radius: 8px; cursor: pointer;">
+                중복 확인
+            </button>
+        </div>
+        <br>
+        <!-- 비밀번호 입력 -->
+        <div>
+            비밀번호<br>
+            <input  class="joinus-pwd" type="text" placeholder="비밀번호 입력(문자,숫자 포함 8~20자)"/>
+        </div>
+        <br>
+        <!-- 비밀번호 재입력 -->
+        <div>
+            비밀번호 확인<br>
+            <input class="joinus-pwdCheck" type="text" placeholder="비밀번호 재입력"/>
+        </div>
+        <br>
+        <!-- 이름 입력 -->
+        <div>
+            이름<br>
+            <input class="joinus-userName" type="text" placeholder="이름을 입력해주세요."/>
+        </div>
+        <br>
+        <!-- 전화번호 입력 -->
+        <div>
+            전화번호<br>
+            <input class="joinus-userPnumber" type="text" placeholder="휴대전화 번호 입력('-'제외 11자리 입력)"/>
+        </div>
+        <br>
+        <!-- 이메일 입력 -->
+        <div>
+            이메일<br>
+            <input class="joinus-userEmail" type="text" placeholder="이메일 주소"/>
+            @
+            <select style="width: 100px; height: 30px;">
+                <option value="naver.com">naver.com</option>
+                <option value="google.com">google.com</option>
+                <option value="daum.net">daum.net</option>
+                <option value="nate.com">nate.com</option>
+            </select>
+        </div>
+        <br>
+        <!-- 생년월일 입력 -->
+        <div class="joinus-birth">
+            생년월일<br>
+            <!-- 년도 -->
+            <select class="birthBox" id="birth-year">
+                <option disabled selected>년도</option>
+            </select>
+            <!-- 월 -->
+            <select class="birthBox" id="birth-month">
+                <option disabled selected>월</option>
+            </select>
+            <!-- 일 -->
+            <select class="birthBox" id="birth-day">
+                <option disabled selected>일</option>
+            </select>
+        </div>
+        <br>
+        <!-- 성별 -->
+        <div>
+            <div>성별</div>
+            <label for="male">남성</label>
+            <input type="radio" checked id="male" value="남성" name="gender">
+            <label for="female">여성</label>
+            <input type="radio" id="female" value="여성" name="gender">
+        </div>
+        <br>
+        <!-- 약관동의 -->
+        <div>
+            <label for="agree-all">
+                <input type="checkbox" name="agree-all" id="agree-all">
+                <span>전체동의</span>
+            </label>
+            <hr style="width: 400px; margin-left: 0;">
+            <br>
+            <label for="agree">
+                &emsp;<input type="checkbox" name="agree" value="1">
+                <span>만 14세 이상입니다.<strong>(필수)</strong></span>
+            </label>
+            <br>
+            <br>
+            <label for="agree">
+                &emsp;<input type="checkbox" name="agree" value="2">
+                <span>ECOECO 이용 약관동의<strong>(필수)</strong></span>
+                &emsp;<sub><u>내용보기</u></sub>
+            </label>
+            <br>
+            <br>
+            <label for="agree">
+                &emsp;<input type="checkbox" name="agree" value="3">
+                <span>개인정보 수집 및 이용동의<strong>(필수)</strong></span>
+                &emsp;<sub><u>내용보기</u></sub>
+            </label>
+            <br>
+            <br>
+            <label for="agree">
+                &emsp;<input type="checkbox" name="agree" value="4">
+                <span>개인정보 제 3자 제공 동의<strong>(선택)</strong></span>
+                &emsp;<sub><u>내용보기</u></sub>
+            </label>
+            <br>
+            <br>
+            <label for="agree">
+                &emsp;<input type="checkbox" name="agree" value="5">
+                <span>마케팅 정보  수신 동의<strong>(선택)</strong></span>
+            </label>
+        </div>
+        <br>
+        <!-- 가입 하기 -->
+        <!-- 가입하기 눌렀을때 정보가 db에 제대로 저장되면 1_login.html로 이동 -->
+        <button class="signUp">가입하기</button>
+    </div>
+</main>
+
+<footer style="height: 322px; width: 1440px; background-color: green;">
+    <div class="footer-inner">
+        <div class="f-rl">
+            <div class="f-left">
+                <h4>ECOECO 고객센터</h4>
+                <a>심심이랑 1:1 채팅하기</a>
+                <a>공지사항 바로가기</a>
+                <a>도움말 바로가기</a>
+                <ul>
+                    <li>상담 가능 시간</li>
+                    <li>평일 09:00 ~ 17:30(주말, 공휴일 제외)</li>
+                </ul>
+            </div>
+            <div class="f-right">
+                <div class="ul-area">
+                    <ul>
+                        <li><strong>이용안내</strong></li>
+                        <li>창작자 가이드</li>
+                        <li>수수료 가이드</li>
+                        <li>제휴-협력</li>
+                    </ul>
+                    <ul>
+                        <li><strong>정책</strong></li>
+                        <li>이용약관</li>
+                        <li>개인정보처리지침</li>
+                        <li>프로젝트 심사 기준</li>
+                    </ul>
+                </div>
+                <div class="licensee-info">
+                    <ul>
+                        <li><strong>테스트</strong></li>
+                        <li>이용약관</li>
+                        <li>개인정보처리지침</li>
+                        <li>프로젝트 심사 기준</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="f-bottom">
+            <div class="icon-area">
+                <p>SNS</p>
+                <ul>
+                    <li><img src="/images/user/common/facebook.png"></li>
+                    <li><img src="/images/user/common/kakaotalk.png"></li>
+                    <li><img src="/images/user/common/youtube.png"></li>
+                    <li><img src="/images/user/common/instagram.png"></li>
+                </ul>
+            </div>
+            <div class="eco-precaution">
+                <p>ECOECO는 플랫폼 제공자로서 프로젝트의 당사자가 아니며, 직접적인 통신판매를 진행하지 않습니다.  프로젝트의 완수 및 선물제공의 책임은 해당 프로젝트의 창작자에게 있으며, 프로젝트와 관련하여 후원자와 발생하는 법적 분쟁에 대한 책임은 해당 창작자가 부담합니다.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<head>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">   
+		$(document).ready( function() {
+			$("#headers").load("../inc/header.html");
+			$("#gnb").load("../inc/gnb.html");
+		});
+	</script>
+</head>
+	<div id="headers"></div>
+	<div id="gnb"></div>
+	
+	<div class="sub_wrap">
+		<aside id="lnb">
+			<ul class="menu">
+				<li><a href="../user/user_list.html">회원 관리</a></li>
+				<li class="btn_sub on"><a href="#">프로젝트 관리</a>
+					<ul class="sub_menu" style="display: block;">
+						<li><a href="../project/project_new_list.html">신규 프로젝트</a></li>
+						<li class="on"><a href="../project/project_now_list.html">진행 프로젝트</a></li>
+						<li><a href="../project/project_end_list.html">종료 프로젝트</a></li>
+						<li><a href="../project/project_return_list.html">반려 프로젝트</a></li>
+					</ul>
+				</li>
+				<li><a href="../payment/payment_list.html">결제 및 정산 관리</a></li>
+				<li><a href="../benefits/benefits.html">혜택 관리</a></li>
+				<li><a href="../board/notice_list.html">게시판관리</a></li>
+			</ul>
+		</aside>		
+		<div class="container clearfix">
+			<div class="content">
+				<div class="list_tit">
+					<h3>진행 프로젝트 관리</h3>
+				</div>
+				<div class="list">
+					<div class="search_wrap">
+						<form acction="#" method="post">
+							<div class="search table_btn ">
+								<select name="searchOption">
+									<option value="1">프로젝트번호</option>
+									<option value="2">프로젝트명</option>
+									<option value="3">카테고리</option>
+									<option value="4">프로젝트상태</option>
+									<option value="5">달성률(이상)</option>
+									<option value="6">달성률(이하)</option>
+									<option value="7">시작일</option>
+									<option value="8">종료일</option>
+								</select>
+								<input type="text" name="search">
+								<input type="date" name="searchDate1"> ~ 
+								<input type="date" name="searchDate2">
+								<div class="r_btn">
+									<button class="btn btn_search">조회</button>
+								</div>
+							</div>
+						</form>
+
+						<div class="result table_btn">
+							<p class="txt">총 <span>2</span>건</p>
+							<!-- <div class="r_btn">
+								<a href="notice_write.html" class="btn">공지사항 등록</a>
+							</div> -->
+						</div>
+						<div class="scrollable">
+							<table class="search_list">
+								<caption>검색결과</caption>
+								<colgroup>
+									<col style="width:5%;">
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">프로젝트번호</th>
+										<th scope="col">프로젝트명</th>
+										<th scope="col">카테고리</th>
+										<th scope="col">프로젝트상태</th>
+										<th scope="col">달성률</th>
+										<th scope="col">시작일</th>
+										<th scope="col">종료일</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>63</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td class="txt_red">일시중지</td>
+										<td>1,400%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>64</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td class="txt_red">일시중지</td>
+										<td>50%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>65</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>150%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>66</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>230%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>67</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>230%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>68</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>230%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>69</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>123%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>70</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>123%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>71</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>123%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+									<tr>
+										<td>72</td>
+										<td><a href="project_detail.html">[한정수량]술장고 + 스피커 진로 두꺼비와</a></td>
+										<td>가전</td>
+										<td>진행중</td>
+										<td>123%</td>
+										<td>2024-03-15</td>
+										<td>2024-03-29</td>
+									</tr>
+							</table>
+						</div>
+						
+						<div class="pagination mt40">
+							<a href="#" class="prev">이전 페이지</a>
+							<a href="#" class="on">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">99</a>
+							<a href="#" class="next">다음 페이지</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

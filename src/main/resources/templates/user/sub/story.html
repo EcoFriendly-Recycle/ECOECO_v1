@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스토리 작성</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/common.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/story.css}"/>
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+</head>
+<body>
+
+    <div th:replace="/user/common/header.html"></div>
+    <div id="wrap">
+        <div class="subwrap">
+            <aside>
+                <div class="sticky-area">
+                    <ul>
+                        <li><a href="projectInfo">프로젝트 작성</a></li>
+                        <li><a href="story">스토리 정보</a></li>
+                        <li><a href="reward">리워드 설계</a></li>
+                        <li><a href="maker">메이커 정보</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <main>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="summary_area">
+                        <div class="top-area">
+                            <p class="p-title">프로젝트 요약</p>
+                            <p class="p-sub">
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                            </p>
+                        </div>
+                        <div class="bottom-area">
+                            <textarea></textarea>
+                        </div>
+                    </div>
+
+                    <div class="thumbImg box">
+                        <div class="left-area">
+                            <p class="p-title">프로젝트 대표 이미지</p>
+                            <p class="p-sub">
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                                안녕하세요안녕하세요안녕하세요안녕하세요
+                            </p>
+                        </div>
+                        <div class="right-area">
+                            <label for="imgFile">
+                                <div class="imgBtn">파일 업로드하기</div>
+                            </label>
+                            <input type="file" name="file" accept="image" id="imgFile">
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="write-area box">
+                        <div class="bottom-area">
+                            <div id="content"></div>
+<!--                            <div id="editor" contenteditable="true">-->
+
+<!--                            </div>-->
+                        </div>
+                    </div>
+                </form>
+<!--                <div><h1>single file upload</h1>-->
+<!--                    <form action="single-file" method="post" enctype="multipart/form-data">-->
+<!--                        파일 : <input type="file" name="singleFile"><br>-->
+<!--                        파일 설명 : <input type="text" name="singleFileDescription"><br>-->
+<!--                        <input type="submit">-->
+<!--                    </form>-->
+<!--                </div>-->
+            </main>
+        </div>
+
+    </div>
+    <div th:replace="/user/common/footer.html"></div>
+    <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+    <script>
+        const editor = new toastui.Editor({
+            el: document.querySelector('#content'), // 에디터를 적용할 요소 (컨테이너)
+            height: '500px',                        // 에디터 영역의 높이 값 (OOOpx || auto)
+            initialEditType: 'markdown',            // 최초로 보여줄 에디터 타입 (markdown || wysiwyg)
+            initialValue: '',                       // 내용의 초기 값으로, 반드시 마크다운 문자열 형태여야 함
+            placeholder: '내용을 입력해 주세요.',      // 플레이스 홀더
+            previewStyle: 'vertical',              // 마크다운 프리뷰 스타일 (tab || vertical)
+            hooks: {
+                async addImageBlobHook(blob, callback) { // 이미지 업로드 로직 커스텀
+                    console.log(blob);
+                    console.log(callback);
+                    try {
+                        // 1. 에디터에 업로드한 이미지를 FormData 객체에 저장
+                        //    (컨트롤러 uploadEditorImage 메서드의 파라미터인 'image'와 formData에 append 하는 key('image')값은 동일해야 함)
+
+                        const formData = new FormData();
+                        formData.append('image', blob);
+
+                        // 2. SubFileUploadController - uploadEditorImage 메소드 호출
+                        const response = await fetch('/editer-image-upload', {
+                            method : 'POST',
+                            body : formData,
+                        });
+
+                        // 3. 컨트롤러에서 전달받은 디스크에 저장된 파일명
+                        const filename = await response.text();
+                        const ofilename = blob.name;
+                        console.log('서버에 저장된 파일명 : ', filename);
+
+                        // 4. addImageBlobHook의 callback 함수를 통해, 디스크에 저장된 이미지를 에디터에 렌더링
+                        const imageUrl = `/editer-image-print?filename=${filename}`;
+                        callback(imageUrl, ofilename);
+
+                    } catch (error) {
+                        console.error('업로드 실패 : ', error);
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>

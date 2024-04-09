@@ -1,0 +1,170 @@
+<head>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">   
+		$(document).ready( function() {
+			$("#headers").load("../inc/header.html");
+			$("#gnb").load("../inc/gnb.html");
+		});
+	</script>
+</head>
+	<div id="headers"></div>
+	<div id="gnb"></div>
+	
+	<div class="sub_wrap">
+		<aside id="lnb">
+			<ul class="menu">
+				<li><a href="../user/user_list.html">회원 관리</a></li>
+				<li class="btn_sub on"><a href="#">프로젝트 관리</a>
+					<ul class="sub_menu" style="display: block;">
+						<li class="on"><a href="../project/project_new_list.html">신규 프로젝트</a></li>
+						<li><a href="../project/project_now_list.html">진행 프로젝트</a></li>
+						<li><a href="../project/project_end_list.html">종료 프로젝트</a></li>
+						<li><a href="../project/project_return_list.html">반려 프로젝트</a></li>
+					</ul>
+				</li>
+				<li><a href="../payment/payment_list.html">결제 및 정산 관리</a></li>
+				<li><a href="../benefits/benefits.html">혜택 관리</a></li>
+				<li><a href="../board/notice_list.html">게시판관리</a></li>
+			</ul>
+		</aside>		
+		<div class="container clearfix">
+			<div class="content">
+				<div class="top_button">
+					<button class="custom-btn btn-5" onclick="location.href ='project_detail.html'">프로젝트 정보</button><!--
+				 --><button class="custom-btn btn-5" onclick="location.href ='#'">스토리</button><!--
+				 --><button class="custom-btn btn-5" onclick="location.href ='project_news.html'">새소식</button><!--
+				 --><button class="custom-btn btn-5" onclick="location.href ='project_review.html'">응원/리뷰</button><!--
+				 --><button class="custom-btn btn-5" onclick="location.href ='#'">리워드 정보</button>
+				</div>
+				<div class="list_tit">
+					<h3>프로젝트 정보</h3>
+				</div>
+				<div class="list">
+					<div class="search_wrap">
+						<div class="scrollable">
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">프로젝트번호</th>
+										<th scope="col">카테고리</th>
+										<th scope="col">프로젝트명</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>63</td>
+										<td>가전</td>
+										<td>[한정수량]술장고 + 스피커 진로 두꺼비와 제대로 홈술!</a></td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">프로젝트상태</th>
+										<th scope="col">요청일</th>
+										<th scope="col">승인일</th>
+										<th scope="col">반려일</th>
+										<th scope="col">시작일</th>
+										<th scope="col">종료일</th>
+										<th scope="col">마감일</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td class="txt_red">심사중</td>
+										<td>2024-03-15</td>
+										<td>0000-00-00</td>
+										<td>2024-03-29</td>
+										<td>2024-03-29</td>
+										<td>2024-03-29</td>
+										<td>2024-03-29</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">목표금액</th>
+										<th scope="col">달성액</th>
+										<th scope="col">달성률</th>
+										<th scope="col">서포터</th>
+										<th scope="col">배송상품</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>10,000,000</td>
+										<td>17,000,500</td>
+										<td>170%</td>
+										<td>170명</td>
+										<td>Y</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">메이커</th>
+										<th scope="col">메이커연락처</th>
+										<th scope="col">메이커이메일</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>고모텍</td>
+										<td>010-1234-5678</td>
+										<td>gomotec@gomotec.com</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						
+						<div class="write nshadow">
+							<div class="write_btn align_c mt35">
+								<button class="btn btn_modify" onclick="location.href ='project_modify.html'">수정</button>
+								<!-- <button class="btn" onclick="history.go(-1)">목록</button> -->
+								<button class="btn btn_del">삭제</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
