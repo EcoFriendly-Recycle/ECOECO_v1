@@ -1,0 +1,33 @@
+/* 페이지 여백 없에기 */
+html,body{margin: 0;padding: 0; width: 100%; min-width: 613px;}
+/* ul,li{margin: 0; padding:0;} */
+
+
+#wrap{max-width: 1440px; height: 753px;}/*전체 요소를 감싸는 요소 (margin: 0 auto 제거한 상태)*/
+header{width:100%; height: 200px; background-color: lightgray;}
+aside{width:20%; background-color: #37BD6D; float: left; min-width: 150px;}
+main{width: 80%; display: inline-block;}
+footer{  height:200px; background-color: lightgray;}
+.subwrap{display: flex; height: inherit;}
+
+/* li 내부 요소 공통 패딩 */
+.pd{padding-bottom: 10px;}
+
+/* aside(약관동의 부분은 이미지 삽입) */
+aside{flex: 1; position: relative;}
+
+.terms-area{margin-top:20%;}
+.terms-inner{display: flex; flex-direction: row;  list-style: none; padding-left: 2%;
+margin:0 auto;width: 80%;}
+.chk-area li input[type=checkbox] {display: block; width: 17px; height: 17px; padding-bottom: 10px;}
+.chk-area{display: flex; flex-direction: column;}
+.terms-agreement{font-size:large;}
+.terms-text-area{display: flex; flex-direction: column;}
+
+.terms-inner ul{list-style: none;}
+.terms-inner ul li{display: block; padding-bottom: 50px;}
+.terms-inner ul li span{padding: 0;}
+
+.chk-btn-area{width: 100%;}
+.chk-btn-area .btn-box{width:5%; margin: 0 auto;}
+.chk-btn-area .chk-start{width: 200px; height: 70px; background-color: #37BD6D; font-size: large; font-weight: bold; color: white; border-style: none; border-radius: 5px;}

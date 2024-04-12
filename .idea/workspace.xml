@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efa0c681-3bec-4c4a-91e9-5fe9035b020e" name="Changes" comment="2024-04-12 회원, 결제 매핑 완료">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/manager/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/manager/common/header.html" afterDir="false" />
-    </list>
+    <list default="true" id="658e5c84-b7ac-4681-a23d-fc751745c356" name="Changes" comment="2402412 noodle commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,36 +14,6 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ECOECO" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -60,163 +27,112 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2efnq6PIf0jcFlU5xCvhCG2OCLu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ewjWIKFfIbb1Wx1dQXuQBnMiHF" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.Build ECOECO(v.1).executor": "Run",
-    "Gradle.Build ECOECO.executor": "Run",
+    "Gradle.Build ecoeco.executor": "Run",
+    "JavaScript Debug.detail-news.html.executor": "Run",
+    "JavaScript Debug.detail-reward.html.executor": "Run",
+    "JavaScript Debug.story.html.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.EcoecoApplication (1).executor": "Run",
     "Spring Boot.EcoecoApplication.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/lecture_code/spring_security/chap01-session-security",
-    "list.type.of.created.stylesheet": "CSS",
+    "last_opened_file_path": "C:/dev/ecoeco/src/main/resources/static/css/user/sub/detail",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.35747126",
-    "settings.editor.selected.configurable": "vcs.Subversion",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.recycle.ecoeco.manager.customer.service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\lecture_code\SEMIProject\ECOECO\src\main\java\com\recycle\ecoeco\configuration" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\images\manager\sub" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\images\manager\common" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\css\manager" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\js\manager" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\detail" />
+      <recent name="C:\dev\ecoeco\src\main\resources\templates\user\sub\detail" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\reward" />
+      <recent name="C:\dev\ecoeco\src\main\resources\templates\user\sub\reward" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\projectInfo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\세미\ECOECO(v.1)\src\main\resources\static\css\manager" />
-      <recent name="C:\dev\lecture_code\SEMIProject\ECOECO\src\main\resources\static\css\user\main" />
-      <recent name="C:\dev\lecture_code\SEMIProject\ECOECO\src\main\resources\templates\user\main" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\css\user" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\templates\user\sub" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.recycle.ecoeco.model" />
-      <recent name="com.recycle.ecoeco.common" />
-      <recent name="com.recycle.ecoeco.configuration.handler" />
+      <recent name="C:\dev\ecoeco\src\main\resources\templates\user\sub\terms" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\maker" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\proejctInfo" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\reward" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\story" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="EcoecoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+  <component name="RunManager" selected="Spring Boot.EcoecoApplication">
+    <configuration name="detail-news.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECOECO/src/main/resources/templates/user/sub/detail/detail-news.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="detail-reward.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECOECO/src/main/resources/templates/user/sub/detail/detail-reward.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="story.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECOECO/src/main/resources/templates/user/sub/story/story.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="EcoecoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="ECOECO.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.recycle.ecoeco.configuration.EcoecoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recycle.ecoeco.configuration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EcoecoApplication" />
+        <item itemvalue="JavaScript Debug.story.html" />
+        <item itemvalue="JavaScript Debug.detail-reward.html" />
+        <item itemvalue="JavaScript Debug.detail-news.html" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\hi\AppData\Roaming\Subversion</configuration>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-f644763e9732-8a10ee56" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="efa0c681-3bec-4c4a-91e9-5fe9035b020e" name="Changes" comment="" />
-      <created>1712304692222</created>
+      <changelist id="658e5c84-b7ac-4681-a23d-fc751745c356" name="Changes" comment="" />
+      <created>1712822564747</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712304692222</updated>
-      <workItem from="1712304693267" duration="3626000" />
-      <workItem from="1712402799516" duration="5129000" />
-      <workItem from="1712417020094" duration="8380000" />
-      <workItem from="1712451320794" duration="37092000" />
-      <workItem from="1712554498287" duration="5469000" />
-      <workItem from="1712563829777" duration="1492000" />
-      <workItem from="1712565450804" duration="7517000" />
-      <workItem from="1712625892132" duration="5409000" />
-      <workItem from="1712635110011" duration="95000" />
-      <workItem from="1712635210543" duration="1127000" />
-      <workItem from="1712645369904" duration="2853000" />
-      <workItem from="1712648519938" duration="5339000" />
-      <workItem from="1712798354488" duration="7748000" />
-      <workItem from="1712818211851" duration="8034000" />
-      <workItem from="1712882165466" duration="25125000" />
+      <updated>1712822564747</updated>
+      <workItem from="1712822565793" duration="3252000" />
+      <workItem from="1712882496956" duration="14796000" />
     </task>
-    <task id="LOCAL-00001" summary="프로젝트 초안 2024.04.09">
+    <task id="LOCAL-00001" summary="2402412 noodle commit">
       <option name="closed" value="true" />
-      <created>1712635548062</created>
+      <created>1712914363101</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1712635548062</updated>
+      <updated>1712914363101</updated>
     </task>
-    <task id="LOCAL-00002" summary="2024-04-12 회원, 결제 매핑 완료">
-      <option name="closed" value="true" />
-      <created>1712912687124</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1712912687124</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
-    <MESSAGE value="프로젝트 초안 2024.04.09" />
-    <MESSAGE value="2024-04-12 회원, 결제 매핑 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-04-12 회원, 결제 매핑 완료" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="2402412 noodle commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2402412 noodle commit" />
   </component>
 </project>
