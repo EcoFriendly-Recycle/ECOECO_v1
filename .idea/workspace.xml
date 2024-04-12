@@ -4,547 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efa0c681-3bec-4c4a-91e9-5fe9035b020e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_DB_(v2_0403).sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_html/images/2021_KAKAO_Ch_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_html/images/ECOECO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_html/images/png-transparent-ui-right-arrow-move-direction-user-interface-icon-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_html/manager/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_html/manager/include.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/ECOECO_html/manager/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/HTML_CSS_JS/images/MyImage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/HTML_CSS_JS/images/mum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/HTML_CSS_JS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/HTML_CSS_JS/자료/~$우드펀딩_업사이클링_자료조사.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/HTML_CSS_JS/자료/시장분석자료 이미지2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/BUILDING.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/bootstrap.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/catalina-tasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/ciphers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/commons-daemon-native.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/commons-daemon.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/configtest.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/configtest.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/makebase.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/migrate.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/setclasspath.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/startup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/bin/tool-wrapper.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/conf/catalina.policy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/conf/catalina.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/conf/jaspic-providers.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/catalina-ant.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/catalina-ha.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/catalina-ssi.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/jasper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/jaspic-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/jsp-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/tomcat-dbcp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/tomcat-i18n-cs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/tomcat-i18n-ko.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/tomcat-i18n-zh-CN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/tomcat-jdbc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/tomcat-websocket.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/lib/websocket-client-api.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_ohgiraffers___chap02_service_metod_lecture_source_1_0_SNAPSHOT_war/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/WEB-INF/classes/com/recycle/ecoeco/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/WEB-INF/lib/aspectjweaver-1.9.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/WEB-INF/lib/spring-context-5.3.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/WEB-INF/lib/spring-core-5.3.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/WEB-INF/lib/spring-expression-5.3.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___com_recycle___ECOECO_1_0_SNAPSHOT_war/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___org_ohgiraffers___chap01_life_cycle_lecture_source_1_0_SNAPSHOT_war/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___org_ohgiraffers___chap01_life_cycle_lecture_source_1_0_SNAPSHOT_war/META-INF/war-tracker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___org_ohgiraffers___chap01_life_cycle_lecture_source_1_0_SNAPSHOT_war/WEB-INF/classes/org/ohgiraffers/chap01lifecyclelecturesource/HelloServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___org_ohgiraffers___chap01_life_cycle_lecture_source_1_0_SNAPSHOT_war/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/Gradle___org_ohgiraffers___chap01_life_cycle_lecture_source_1_0_SNAPSHOT_war/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/classes/com/ohgiraffers/menu/controller/MenuOrderServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/jsp/1_simpleJspStates.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/jsp/2_pageDirective.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/jsp/4_request.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/jsp/errorPage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/ROOT/jsp/today.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/RELEASE-NOTES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/introduction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/sample/docs/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/sample/src/mypackage/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/sample/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/sample/web/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/sample/web/images/tomcat.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/sample/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/appdev/source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/architecture/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/architecture/overview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/architecture/requestProcess/authentication-process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/architecture/startup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/cdi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/cgi-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/changelog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/cluster-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-channel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-deployer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-interceptor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-membership.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-receiver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/cluster-sender.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/context.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/engine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/executor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/globalresources.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/jar-scanner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/jaspic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/listeners.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/loader.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/resources.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/server.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/sessionidgenerator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/systemprops.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/config/valve.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/connectors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/developers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/graal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/html-host-manager-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/html-manager-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/add.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/asf-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/code.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/docs.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/fix.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/fonts/OpenSans400italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/fonts/OpenSans600italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/images/update.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/introduction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/jasper-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/jndi-datasource-examples-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/jndi-resources-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/jspapi/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/manager-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/maven-jars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/mbeans-descriptors-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/mbeans-descriptors.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/monitoring.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/security-manager-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/servletapi/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/setup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/tribes/developers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/tribes/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/tribes/introduction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/tribes/membership.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/tribes/setup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/tribes/transport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/virtual-hosting-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/websocketapi/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/docs/windows-service-howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/CookieExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/HelloWorldExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/HelloWorldExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/LocalStrings_cs.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/LocalStrings_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/LocalStrings_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/LocalStrings_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/RequestHeaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/Async1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/Async2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/Async3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/AsyncStockContextListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/async/Stockticker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/cal/Entries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/cal/JspCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/cal/TableBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/cal/TableBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/dates/JspCalendar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/dates/JspCalendar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/error/Smart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/examples/LogTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/examples/ValuesTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/listeners/ContextListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/listeners/SessionListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/trailers/ResponseTrailers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/util/CookieFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/validators/DebugValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/echo/servers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/snake/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/jsp/debug-taglib.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/jsp/example-taglib.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5-migrated-0.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/tags/panel.tag" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/async/async3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/async/async3.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/async/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/cal/cal2.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/checkbox/check.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/checkbox/checkresult.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/colors/colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/colors/colrs.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/colors/colrs.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/error/err.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/error/errorpge.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/forward/forward.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/images/execute.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/include/foo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/include/inc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/include/include.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/el/ValuesBean.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/el/composite.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/el/functions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspattribute/shuffle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspx/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspx/basic.jspx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspx/svgexample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspx/textRotate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspx/textRotate.jspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/misc/dynamicattrs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/misc/prelude.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/misc/prelude.jspf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/simpletag/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/simpletag/book.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/tagfiles/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsptoserv/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/jsptoserv/jts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/num/numguess.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/security/protected/error.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/security/protected/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/sessions/DummyCart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/sessions/carts.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/sessions/carts.jsp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/sessions/crt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/simpletag/foo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/simpletag/foo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/snp/snoop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/snp/snoop.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/jsp/tagplugin/howto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/servlets/images/code.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/servlets/nonblocking/bytecounter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/servlets/reqheaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/servlets/reqparams.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/websocket/chat.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/examples/websocket/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/host-manager/META-INF/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/host-manager/WEB-INF/manager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/host-manager/css/manager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/host-manager/images/tomcat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/WEB-INF/jsp/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/css/manager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/images/asf-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/status.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/apache-tomcat-10.1.19/webapps/manager/xform.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/주요기능.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기10-1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기12-1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기12-2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기13-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/프로젝트만들기/와디즈_프로젝트만들기4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/회원가입/와디즈_회원가입1_네이버4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../deka_root/와디즈/회원가입/와디즈_회원가입1_네이버5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/HTTP_tomcat/apach-tomcat/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/HTTP_tomcat/apach-tomcat/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_1_005fsimpleJspStates_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/HTTP_tomcat/apach-tomcat/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/HTTP_tomcat/apach-tomcat/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/HTTP_tomcat/apach-tomcat/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/HTTP_tomcat/apach-tomcat/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap00-autoconfiguration/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap00-autoconfiguration/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap00-autoconfiguration/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap00-autoconfiguration/src/test/java/com/ohgiraffers/chap00autoconfiguration/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap01-thymeleaf/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap01-thymeleaf/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap01-thymeleaf/src/main/java/com/ohgiraffers/thymeleaf/config/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap01-thymeleaf/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap011-async/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap011-async/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap011-async/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap011-async/src/main/java/com/ohgiraffers/async/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap011-async/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/src/main/java/com/ohgiraffers/requestmapping/MethodMappingTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/src/main/resources/templates/mappingResult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap02-request-mapping/src/test/java/com/ohgiraffers/requestmapping/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap03-handler-method/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap03-handler-method/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap03-handler-method/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap03-handler-method/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap03-handler-method/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap03-handler-method/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap04-view-resolver/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap04-view-resolver/src/main/java/com/ohgiraffers/resolver/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap04-view-resolver/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/src/main/java/com/ohgiraffers/exceptionhandler/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/src/main/java/com/ohgiraffers/exceptionhandler/OtherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/src/main/resources/templates/error/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap05-exception-handler/src/test/java/com/ohgiraffers/exceptionhandler/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap06-interceptor/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap06-interceptor/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap07-file-upload/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap07-file-upload/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap07-file-upload/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap07-file-upload/src/main/java/com/ohgiraffers/fileupload/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap07-file-upload/src/main/resources/static/uploadFiles/0c7e5052-ef1a-4afb-b7ee-ce98b1c8c704.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/src/main/java/com/ohgiraffers/crud/configuration/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-boot/chap08-crud/src/test/java/com/ohgiraffers/crud/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap01-ioc-container/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap01-ioc-container/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap01-ioc-container/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap01-ioc-container/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap01-ioc-container/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap02-depandency-injection/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap02-depandency-injection/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap02-depandency-injection/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap03-di-annotation/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap03-di-annotation/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap03-di-annotation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap03-di-annotation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap03-di-annotation/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap03-di-annotation/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap04-bean/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap04-bean/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap04-bean/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap04-bean/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap04-bean/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring-core/chap05-aop/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/java/com/ohgiraffers/sessionsecurity/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/java/com/ohgiraffers/sessionsecurity/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/java/com/ohgiraffers/sessionsecurity/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/resources/mapper/user/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/resources/templates/auth/fail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/resources/templates/user/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/Spring_security/chap01-session-security/src/main/resources/templates/user/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap01-connection-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap01-connection-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap01-connection-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap01-connection-lecture-source/src/main/java/com/ohgiraffers/section01/connection/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap01-connection-lecture-source/src/main/java/com/ohgiraffers/section02/template/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap01-connection-lecture-source/src/main/java/com/ohgiraffers/section02/template/connection-info.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/src/main/java/com/ohgiraffers/common/JDBCTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/src/main/java/com/ohgiraffers/config/connection-info.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/src/main/java/com/ohgiraffers/section02/preparedstatement/Application4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/src/main/java/com/ohgiraffers/section03/sqlinjection/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap02-statements-lecture-source/src/main/java/com/ohgiraffers/section03/sqlinjection/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/common/JDBCTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/section01/insert/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/section01/insert/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/section02/update/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/section02/update/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/section03/delete/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/jdbc/chap03-crud-lecture-source/src/main/java/com/ohgiraffers/section03/delete/DeleteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-ioc-container/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap01-life-cycle-lecture-source/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap02-service-metod-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap03-parameter-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap03-parameter-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap03-parameter-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap03-parameter-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap03-parameter-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap04-request-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap05-response-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap05-response-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap05-response-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap05-response-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap05-response-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap05-response-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap06-exception-handler-lecture-source/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap07-forward-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap07-forward-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap07-forward-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap07-forward-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap07-forward-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap08-redirect-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap08-redirect-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap08-redirect-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap08-redirect-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap08-redirect-lecture-source/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap09-cookie-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap09-cookie-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap09-cookie-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap09-cookie-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap09-cookie-lecture-source/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap10-seesion-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap10-seesion-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap10-seesion-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap10-seesion-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap11-filter-wrapper-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap11-filter-wrapper-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap11-filter-wrapper-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap11-filter-wrapper-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap11-filter-wrapper-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap12-listener-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_1_005fsimpleJspStates_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_3_005fincludeDirective_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_4_005frequest_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/_5_005fresponse_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/jsp/org/apache/jsp/jsp/errorPage_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/jsp/4_request.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lecture_code/servlet/chap13-jsp-lecture-source/src/main/webapp/jsp/today.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/ECOECO/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/ECOECO/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/ECOECO/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../deka_root/ECOECO/ECOECO/src/main/resources/static/css/manager/header.css" beforeDir="false" />
+    <list default="true" id="658e5c84-b7ac-4681-a23d-fc751745c356" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/detail/detail-news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/detail/detail-refund.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/detail/detail-review.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/detail/detail-reward.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/detail/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/terms/terms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/detail/detail-news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/detail/detail-refund.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/detail/detail-review.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/detail/detail-reward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/detail/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/story/story.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/terms/terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6256bb48-af0d-4ec8-8522-573f42b208b7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6256bb48-af0d-4ec8-8522-573f42b208b7/storage_v2/_src_/schema/ecoeco.YIoAsg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6256bb48-af0d-4ec8-8522-573f42b208b7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6256bb48-af0d-4ec8-8522-573f42b208b7/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6256bb48-af0d-4ec8-8522-573f42b208b7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6256bb48-af0d-4ec8-8522-573f42b208b7/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/recycle/ecoeco/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/recycle/ecoeco/configuration/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/recycle/ecoeco/user/sub/controller/SubController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/recycle/ecoeco/user/sub/controller/SubController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/user/maker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/user/projectInfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/user/reward.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/user/story.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/user/sub/maker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/user/sub/projectInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/user/sub/reward.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/user/sub/story.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfig.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recycle/ecoeco/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recycle/ecoeco/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/recycle/ecoeco/user/sub/controller/SubController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/recycle/ecoeco/user/sub/controller/SubController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/user/maker.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/maker/maker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/user/projectInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/projectInfo/projectInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/user/reward.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/reward/reward.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/user/story.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/user/sub/story/story.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/sub/maker.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/maker/maker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/sub/projectInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/projectInfo/projectInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/sub/reward.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/user/sub/reward/reward.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/user/sub/story.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -556,122 +82,87 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ECOECO" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2efnq6PIf0jcFlU5xCvhCG2OCLu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ewjWIKFfIbb1Wx1dQXuQBnMiHF" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.Build ECOECO.executor": "Run",
+    "Gradle.Build ecoeco.executor": "Run",
+    "JavaScript Debug.detail-news.html.executor": "Run",
+    "JavaScript Debug.detail-reward.html.executor": "Run",
+    "JavaScript Debug.story.html.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.EcoecoApplication (1).executor": "Run",
     "Spring Boot.EcoecoApplication.executor": "Run",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/EcoFriendly-Recycle/ECOECO",
-    "list.type.of.created.stylesheet": "CSS",
+    "last_opened_file_path": "C:/dev/ecoeco/src/main/resources/static/css/user/sub/detail",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.35747126",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\lecture_code\SEMIProject\ECOECO\src\main\java\com\recycle\ecoeco\configuration" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\images\manager\sub" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\images\manager\common" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\css\manager" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\js\manager" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\detail" />
+      <recent name="C:\dev\ecoeco\src\main\resources\templates\user\sub\detail" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\reward" />
+      <recent name="C:\dev\ecoeco\src\main\resources\templates\user\sub\reward" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\projectInfo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\dev\lecture_code\SEMIProject\ECOECO\src\main\resources\static\css\user\main" />
-      <recent name="C:\dev\lecture_code\SEMIProject\ECOECO\src\main\resources\templates\user\main" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\static\css\user" />
-      <recent name="C:\k\JavaProject\HM\semiproject\ECOECO\src\main\resources\templates\user\sub" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.recycle.ecoeco.model" />
-      <recent name="com.recycle.ecoeco.common" />
-      <recent name="com.recycle.ecoeco.configuration.handler" />
+      <recent name="C:\dev\ecoeco\src\main\resources\templates\user\sub\terms" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\maker" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\proejctInfo" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\reward" />
+      <recent name="C:\dev\ecoeco\src\main\resources\static\css\user\sub\story" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="EcoecoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+  <component name="RunManager" selected="Spring Boot.EcoecoApplication">
+    <configuration name="detail-news.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECOECO/src/main/resources/templates/user/sub/detail/detail-news.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="detail-reward.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECOECO/src/main/resources/templates/user/sub/detail/detail-reward.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="story.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECOECO/src/main/resources/templates/user/sub/story/story.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="EcoecoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="ECOECO.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.recycle.ecoeco.configuration.EcoecoApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recycle.ecoeco.configuration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EcoecoApplication" />
+        <item itemvalue="JavaScript Debug.story.html" />
+        <item itemvalue="JavaScript Debug.detail-reward.html" />
+        <item itemvalue="JavaScript Debug.detail-news.html" />
       </list>
     </recent_temporary>
   </component>
@@ -685,45 +176,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="efa0c681-3bec-4c4a-91e9-5fe9035b020e" name="Changes" comment="" />
-      <created>1712304692222</created>
+      <changelist id="658e5c84-b7ac-4681-a23d-fc751745c356" name="Changes" comment="" />
+      <created>1712822564747</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712304692222</updated>
-      <workItem from="1712304693267" duration="3626000" />
-      <workItem from="1712402799516" duration="5129000" />
-      <workItem from="1712417020094" duration="8380000" />
-      <workItem from="1712451320794" duration="37092000" />
-      <workItem from="1712554498287" duration="5469000" />
-      <workItem from="1712563829777" duration="1492000" />
-      <workItem from="1712565450804" duration="7517000" />
-      <workItem from="1712625892132" duration="5409000" />
-      <workItem from="1712635110011" duration="95000" />
-      <workItem from="1712635210543" duration="218000" />
+      <updated>1712822564747</updated>
+      <workItem from="1712822565793" duration="3252000" />
+      <workItem from="1712882496956" duration="14386000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
-    </ignored-roots>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

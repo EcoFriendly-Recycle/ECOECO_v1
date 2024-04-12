@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리워드 설계</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/sub/reward/reward.css}">
+</head>
+<body>
+
+
+    <div class="m-area">
+        <div class="m-frame">
+            <div class="cancel-img">
+                <img src="./modal_cancel.png">
+            </div>   
+          <form>
+            <div class="m-margin-frame">
+                <p class="pp__title">리워드 설계</p>
+                <p class="pp"><label for="amount">목표 금액 </label></p> 
+                    <input type="text" id="amount" > 
+                
+                <p class="pp"><label for="reward-name">리워드명 </label></p> 
+                    <input type="text" id="reward-name" >  
+                
+                <p class="pp"><label for="reward-explain">리워드 설명</label></p> 
+                    <textarea id="reward-explain" ></textarea> 
+
+                    <p class="pp">배송 여부</p>
+                        <div class="express__btn">
+                            <input type="radio" id="radio1" name="exbtn" value="y">
+                            <label for="radio1">배송✔</label>
+                            <input type="radio" id="radio2" name="exbtn" value="n">
+                            <label for="radio2">배송안함✔</label>
+                        </div>
+                        
+                        <!-- 리워드 저장,취소 -->
+                        <div class="modal__final-btn">
+                            <button type="button" class="cancel final-btn">취소하기</button>
+                            <button type="button" class="add final-btn">저장하기</button>
+                        </div>   
+            </div>
+          </form>
+        </div>            
+    </div>
+
+    <header>
+    
+    </header>
+    <div id="wrap">
+      
+        <div class="subwrap">
+        <aside>
+            <div class="sticky-area">
+                <ul>
+                    <li><a href="/user/sub/projectInfo/projectInfo">프로젝트 작성</a></li>
+                    <li><a href="/user/sub/story/story">스토리 정보</a></li>
+                    <li><a href="/user/sub/reward/reward">리워드 설계</a></li>
+                    <li><a href="/user/sub/maker/maker">메이커 정보</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <div class="reward__title">
+                <p class="main-title">리워드 설계</p>
+                <p class="main-sub">서포터님들에게 제공할 리워드를 입력해주세요.</p>
+            </div>
+            <div class="box">
+                <div class="r-info">
+                    <p class="r-sub-title">리워드 주의사항</p>
+                    <div class="r-sub-info">
+                        <div class="sub1 sub"> <!-- -->
+                            <div class="p-flex">
+                                <p>소제목</p>
+                                <p class="sub-text">
+                                    혜택이 좋은 순서대로 등록해 주세요.
+                                    제한 수량이 모두 소진된 리워드는 설정한 순서와 상관없이 리워드 목록 최하단에 노출돼요.</p>
+                            </div>
+                        </div>
+                        <div class="sub2 sub">
+                            <div class="p-flex">
+                                <p>소제목</p>
+                                <p class="sub-text">
+                                    각 리워드별 제공할 수 있는 수량을 입력해 주세요.
+                                    제한된 수량이 모두 소진되면 이 리워드를 선택할 수 없어요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sub3 sub">
+                            <div class="p-flex">
+                                <p>소제목</p>
+                                <p class="sub-text">
+                                    펀딩 프로젝트의 경우 판매된 적 있는 제품∙서비스∙콘텐츠는 반드시 첫 출시 리워드와 세트로 구성해 주세요.
+                                    자사몰 및 다른 채널에서 판매된 적 있는 리워드는 단독 리워드로 제공할 수 없어요.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sub4 sub">
+                            <div class="p-flex">
+                                <p>소제목</p>
+                                <p class="sub-text">
+                                    펀딩 프로젝트의 경우 판매된 적 있는 제품∙서비스∙콘텐츠는 반드시 첫 출시 리워드와 세트로 구성해 주세요.
+                                    자사몰 및 다른 채널에서 판매된 적 있는 리워드는 단독 리워드로 제공할 수 없어요</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <form>
+
+                <div class="r-area">
+                    <div class="r-success">
+                        
+                        <div class="r-sum-mark"> 
+                            <p>금액 표시</p>
+                        </div>
+                        <div class="r-name">
+                            <p>리워드명</p>
+                        </div>
+                        <div class="r-mark">
+                            <p>리워드 표시</p>
+                        </div>
+                        <div class="r-success-btn">
+                            <button class="rewrite-btn">수정</button>
+                            <button class="delete-btn">삭제</button>
+                        </div>
+                    </div>
+
+                    <div class="r-success">
+                        
+                        <div class="r-sum-mark"> 
+                            <p>금액 표시</p>
+                        </div>
+                        <div class="r-name">
+                            <p>리워드명</p>
+                        </div>
+                        <div class="r-mark">
+                            <p>리워드 표시</p>
+                        </div>
+                        <div class="r-success-btn">
+                            <button class="rewrite-btn">수정</button>
+                            <button class="delete-btn">삭제</button>
+                        </div>
+                    </div>
+
+
+                    <button type="button" class="r-creat-btn">리워드 생성</button>
+                </div>
+
+                
+
+                <div class="saveBtn-area">
+                    <button class="saveBtn">저장하기</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+</div>
+<footer>
+
+</footer>
+    
+    <script>
+        // 리워드 생성 버튼 클릭 이벤트
+        document.querySelector('.r-creat-btn').addEventListener('click',function(e){
+            document.querySelector('.m-area').classList.add('m-block');
+        })
+
+        // 모달창 닫기(x이미지) 클릭 이벤트
+        document.querySelector('.cancel-img').addEventListener('click', function(e){
+            document.querySelector('.m-area').classList.remove('m-block');
+        })
+    </script>
+
+</body>
+</html>

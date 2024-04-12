@@ -10,7 +10,7 @@ spring:
   servlet:
     multipart:
       #      location: C:/dev/lecture_code/spring-boot/chap07-file-upload
-      location: C:\dev\lecture_code\SEMIProject\ECOECO
+      location: C:\dev\ECOECO # 나중에 경로 수정 가능성 있음
       max-file-size: 10MB
       max-request-size: 10MB
 
@@ -19,4 +19,7 @@ mybatis:
   mapper-locations: mappers/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
+    spring:
+      mvc:
+        static-path-pattern=/resources/static/**
 
