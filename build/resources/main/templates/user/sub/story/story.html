@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스토리 작성</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/sub/story/story.css}">
+</head>
+<body>
+    <header>
+    
+    </header>
+    <div id="wrap">
+        <div class="subwrap">
+        <aside>
+            <div class="sticky-area">
+                <ul>
+                    <li><a href="/user/sub/projectInfo/projectInfo">프로젝트 작성</a></li>
+                    <li><a href="/user/sub/story/story">스토리 정보</a></li>
+                    <li><a href="/user/sub/reward/reward">리워드 설계</a></li>
+                    <li><a href="/user/sub/maker/maker">메이커 정보</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main>
+            <form>
+            <div class="summary_area">
+                <div class="top-area">
+                    <p class="p-title">프로젝트 요약</p>
+                    <p class="p-sub">
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                    </p>
+                </div>
+                <div class="bottom-area">
+                   <textarea></textarea>
+                </div>
+            </div>
+
+            <div class="thumbImg box">
+                 <div class="left-area">
+                    <p class="p-title">프로젝트 대표 이미지</p>
+                    <p class="p-sub">
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                        안녕하세요안녕하세요안녕하세요안녕하세요
+                    </p>
+                 </div>
+                 <div class="right-area">
+                    <label for="imgFile">
+                        <div class="imgBtn">파일 업로드하기</div>
+                      </label>
+                      <input type="file" name="file" accept="image" id="imgFile">
+                    
+                 </div>   
+            </div>
+
+            <div class="write-area box">
+                <div class="top-area">
+                <div class="editor-menu">
+                    <button id="btn-bold">
+                        <b>B</b>
+                    </button>
+                    <button id="btn-italic">
+                        <i>I</i>
+                    </button>
+                    <button id="btn-underline">
+                        <u>U</u>
+                    </button>
+                    <button id="btn-strike">
+                        <s>S</s>
+                    </button>
+                    <button id="btn-ordered-list">
+                        OL
+                    </button>
+                    <button id="btn-unordered-list">
+                        UL
+                    </button>
+                    <button id="btn-image">
+                        IMG
+                    </button>
+                </div>
+            </div>
+            <div class="bottom-area">
+                <div id="editor" contenteditable="true">
+
+                </div>
+            </div>
+            </div>
+            </form>
+        </main>
+    </div>
+
+</div>
+<footer>
+
+</footer>
+
+
+</body>
+</html>

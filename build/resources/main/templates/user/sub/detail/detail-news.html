@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상세페이지-새소식</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/sub/detail/detail-news.css}">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <button class="login ljBtn btn">로그인</button>
+            <button class="join ljBtn btn">회원가입</button>
+            <button class="project btn">프로젝트 만들기</button>
+         </div>
+         <div class="middle">
+             <div class="logo">
+                 <img src="/images/user/common/ecoeco_logo.png" alt="에코에코 로고">
+             </div>
+         </div>
+         <div class="bottom">
+             <nav class="gnb">
+                 <ul>
+                     <li><a href="">카테고리</a></li>
+                     <li><a href="">인기</a></li>
+                     <li><a href="">신규</a></li>
+                     <li><a href="">마감임박</a></li>
+                     <li><a href="">오픈예정</a></li>
+                     <li><a href="">커뮤니티</a></li>
+                     <li><input type="text" class="search" placeholder="🔍&nbsp; Search"></li>
+                 </ul>
+             </nav>
+         </div>
+    </header>
+    <nav class="sub-nav">
+        <ul>
+            <li><a href="/user/sub/detail/detail">스토리</a></li>
+            <li><a href="/user/sub/detail/detail-news">새소식</a></li>
+            <li><a href="/user/sub/detail/detail-review">응원/리뷰</a></li>
+            <li><a href="/user/sub/detail/detail-refund">환불정책</a></li>
+            <li><a href="/user/sub/detail/detail-reward">리워드</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrap"> 
+        <div id="sub-wrap">
+            <div class="content-top">
+                <div class="util-area">
+                  <div class="util-box">
+                    <div class="news-box">
+                        <div class="news-text">
+                            <h1>새소식</h1>
+                                
+                                <div class="news-text-innerbox">
+                                    <h4 class="">리워드 안내</h4>
+                                    <p class="news-contents">어쩌구 오픈</p>
+                                    <span class="news-date">yyyy/mm/dd</span>
+                                </div>
+                                <div class="news-text-innerbox">
+                                    <h4 class="">리워드 안내</h4>
+                                    <p class="news-contents">어쩌구 오픈</p>
+                                    <span class="news-date">yyyy/mm/dd</span>
+                                </div>
+                                <div class="news-text-innerbox">
+                                    <h4 class="">리워드 안내</h4>
+                                    <p class="news-contents">어쩌구 오픈</p>
+                                    <span class="news-date">yyyy/mm/dd</span>
+                                </div>
+                                <div class="news-text-innerbox">
+                                    <h4 class="">리워드 안내</h4>
+                                    <p class="news-contents">어쩌구 오픈</p>
+                                    <span class="news-date">yyyy/mm/dd</span>
+                                </div>
+                                <div class="news-text-innerbox">
+                                    <h4 class="">리워드 안내</h4>
+                                    <p class="news-contents">어쩌구 오픈</p>
+                                    <span class="news-date">yyyy/mm/dd</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="funding-area">
+                    <div class="funding-inner">
+                        <div class="funding-text">
+                            <span class="maker-name">메이커 이름</span>
+                            <p class="project-name">프로젝트 제목</p>
+                            <p class="project-simple-info">프로젝트 간단 설명</p>
+                            <p><span class="pj-word project-percent">1,500</span> <span class="project-complete">% 달성</span></p>
+                            <p><span class="pj-word project-won">1,500,000</span> <span class="project-complete">원 달성</span></p>
+                        </div>
+
+                        <div class="funding-select">
+                            <div class="selectBtn" onclick="listTarget('.selectBtn', '.cate-list')"></div>
+
+                            <div class="cate-list">
+                                <ul>
+                                    <li>카테고리1</li>
+                                    <li>카테고리2</li>
+                                    <li>카테고리3</li>
+                                    <li>카테고리4</li>
+                                    <li>카테고리5</li>
+                                    <li>카테고리6</li>
+                                    <li>카테고리7</li>
+                                    <li>카테고리8</li>
+                                </ul>
+                            </div>
+                        </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-bottom">
+                <div class="story-img-area">
+                    <img src="./nikeShoe.jpg"alt="프로젝트 상세 이미지">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        
+    </footer>
+
+    <script>
+        // 리워드 생성 버튼 클릭 이벤트
+        function listTarget(tg1, tg2){
+            document.querySelector(tg1).addEventListener('click',function(e){
+                document.querySelector(tg2).classList.toggle('list__block'); 
+                // 이벤트 리스너가 한 번만 호출되도록 리스너 제거
+                document.querySelector(tg1).removeEventListener('click', arguments.callee);
+            });
+        }
+        
+        function category_cheer() {
+            document.getElementById("supportReviewsCategory").value = "1";
+        }
+        function category_review() {
+            document.getElementById("supportReviewsCategory").value = "2";
+        }
+    </script>
+</body>
+</html>
