@@ -1,0 +1,56 @@
+
+.refundbutton{
+    width: 84px;
+    height: 32px;
+    background-color: red;
+    -webkit-text-fill-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0px 0px 0px;
+}
+/* .search_wrap .search {position:relative; height:40px; background-color:#fff; padding:0 25px;}
+.search_wrap .search select{width:15%; height:32px; border:1px solid #d5d5d5; box-sizing:border-box; padding-left:5px;}
+.search_wrap .search input[type=text] {width: 30%; display:inline-block; height: 32px; border: 1px solid #d5d5d5; box-sizing: border-box; padding-left: 10px;}
+.search_wrap .search input[type=date] {width: 15%; display:inline-block; height: 32px; border: 1px solid #d5d5d5; box-sizing: border-box; padding-left: 10px; margin: 0 30px;}
+.search_wrap .search .r_btn {position:absolute;right:20px;bottom:15px;}
+.search_wrap .result {background-color:#fff;}
+.search_wrap .table_btn .btn_search { background-color:#6c6c6c; font-size:13px;} */
+
+.tablehead{
+    background-color:#F1F1F1;
+    width:1061px;
+    height : 56px;
+}
+
+.tablebody{
+    text-align: center;
+    background-color:#ffffff;
+    width:1061px;
+    height:56px;
+}
+.photoall{
+    background-color: aliceblue;
+    text-align: center;
+    display: table;
+    width: 160px;
+    height: 160px;
+    margin: 0px 10px 0px 10px;
+}
+.pimg{
+    max-width: 160px;
+    max-height: 160px;
+}
+.pimgdiv{
+    display: table-cell;
+    vertical-align: middle;
+}
+.pdel{
+width: 160px;
+height: 32px;
+background-color: #FF3131;
+color: #ffffff;
+border: none;
+border-radius: 8px;
+margin: 10px;
+
+}

@@ -1,0 +1,110 @@
+<div th:replace="/manager/common/header.html"></div>
+<div th:replace="/manager/common/gnb.html"></div>
+	
+	<div class="sub_wrap">
+		<aside id="lnb">
+			<ul class="menu">
+				<li><a href="/manager/customer/customer_list">회원 관리</a></li>
+				<li><a href="../project/new_project_list.html">프로젝트 관리</a></li>
+                <li class="btn_sub on">
+					<a href="#">결제 및 정산 관리</a>
+					<ul class="sub_menu" style="display: block;">
+                        <li><a href="/manager/ordertab/order/order_list">주문</a></li>
+                        <li><a href="/manager/ordertab/payment/payment_list">결제 현황</a></li>
+						<li class="on"><a href="/manager/ordertab/calculate/calculate_list">정산대기</a></li>
+						<li><a href="/manager/ordertab/refund/refund_list">취소 환불</a></li>
+					</ul>
+				</li>
+				<li><a href="../benefits/benefits.html">게시판관리</a></li>
+				
+			</ul>
+		</aside>
+		<div class="container clearfix">
+			<div class="content">
+				<div class="list_tit">
+					<h3>정산대기</h3>
+				</div>
+				<div class="list">
+					<div class="search_wrap">
+						<form acction="#" method="post">
+							<div class="search table_btn ">
+								<select name="searchOption">
+									<option value="1">프로젝트번호</option>
+									<option value="2">프로젝트명</option>
+									<option value="3">회원번호</option>
+									<option value="4">정산상태</option>
+								</select>
+								<input type="text" name="search">
+								<input type="date" name="searchDate1"> ~ 
+								<input type="date" name="searchDate2">
+								<div class="r_btn">
+									<button class="btn btn_search">조회</button>
+								</div>
+							</div>
+						</form>
+						<div class="result table_btn ">
+							<p class="txt">총 <span>2</span>건</p>
+							<!-- <div class="r_btn">
+								<a href="notice_write.html" class="btn">공지사항 등록</a>
+							</div> -->
+						</div>
+						<div class="scrollable">
+							<table class="search_list">
+								<caption>검색결과</caption>
+								<colgroup>
+									<col style="width:5%;">
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">프로젝트번호</th>
+										<th scope="col">프로젝트메이커 회원번호</th>
+										<th scope="col">달성금액</th>
+										<th scope="col">정산상태</th>
+										<th scope="col">프로젝트 종료일</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr onclick="location.href='/manager/ordertab/calculate/calculate_info'">
+										<td>123456</td>
+										<td>123456</td>
+										<td>10,000,000</td>
+										<td>N</td>
+										<td>2024-07-20</td>
+									</tr>
+                                    <tr onclick="location.href='../payment/calculate_info.html'">
+										<td>123456</td>
+										<td>123456</td>
+										<td>10,000,000</td>
+										<td>N</td>
+										<td>2024-07-20</td>
+									</tr>
+                                    <tr onclick="location.href='../payment/calculate_info.html'">
+										<td>123456</td>
+										<td>123456</td>
+										<td>10,000,000</td>
+										<td>N</td>
+										<td>2024-07-20</td>
+									</tr>
+							</table>
+						</div>
+						
+						<div class="pagination mt40">
+							<a href="#" class="prev">이전 페이지</a>
+							<a href="#" class="on">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">99</a>
+							<a href="#" class="next">다음 페이지</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

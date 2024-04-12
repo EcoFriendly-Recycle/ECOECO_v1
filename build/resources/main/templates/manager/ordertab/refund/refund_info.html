@@ -1,0 +1,147 @@
+<div th:replace="/manager/common/header.html"></div>
+<div th:replace="/manager/common/gnb.html"></div>
+	
+	<div class="sub_wrap">
+		<aside id="lnb">
+			<ul class="menu">
+				<li><a href="/manager/customer/customer_list">회원 관리</a></li>
+				<li><a href="../project/new_project_list.html">프로젝트 관리</a></li>
+				<li class="btn_sub on">
+					<a href="#">결제 및 정산 관리</a>
+					<ul class="sub_menu" style="display: block;">
+						<li><a href="/manager/ordertab/order/order_list">주문</a></li>
+						<li><a href="/manager/ordertab/payment/payment_list">결제 현황</a></li>
+						<li><a href="/manager/ordertab/calculate/calculate_list">정산대기</a></li>
+						<li class="on"><a href="/manager/ordertab/refund/refund_list">취소 환불</a></li>
+					</ul>
+				</li>
+				<li><a href="../benefits/benefits.html">게시판관리</a></li>
+
+			</ul>
+		</aside>		
+		<div class="container clearfix">
+			<div class="content">
+
+				<div class="list_tit">
+					<h3>환불정보</h3>
+				</div>
+				<div class="list">
+					<div class="search_wrap">
+						<div class="scrollable">
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">결제번호</th>
+										<th scope="col">이름</th>
+										<th scope="col">아이디</th>
+										<th scope="col">결제금액</th>
+										<th scope="col">환불상태</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>100201</td>
+										<td>홍길동</td>
+										<td>hong12</td>
+                                        <td>150,000</td>
+                                        <td>환불 요청</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">프로젝트번호</th>
+										<th scope="col">프로젝트명</th>
+										<th scope="col">환불신청일</th>
+										<th scope="col">환불계좌</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<!-- <td class="txt_red">심사중</td> -->
+                                        <td>123456</td>
+                                        <td>바다를 꺠끗하게</td>
+                                        <td>2024-04-01</td>
+                                        <td>101-123456-78</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">환불 완료 일자</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+                                        <td>-</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<!-- <table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">메이커</th>
+										<th scope="col">메이커연락처</th>
+										<th scope="col">메이커이메일</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>고모텍</td>
+										<td>010-1234-5678</td>
+										<td>gomotec@gomotec.com</td>
+									</tr>
+								</tbody>
+							</table> -->
+						</div>
+						
+						<div class="write nshadow">
+							<div class="write_btn align_c mt35">
+								<button class="btn" onclick="history.go(-1)">목록</button>
+								<button class="btn btn_modify" onclick="location.href ='project_modify.html'">환불 거절</button>
+								<button class="btn btn_del">환불 진행</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
