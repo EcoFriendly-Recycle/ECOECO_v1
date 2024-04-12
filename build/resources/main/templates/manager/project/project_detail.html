@@ -1,40 +1,30 @@
-<head>
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<script type="text/javascript">   
-		$(document).ready( function() {
-			$("#headers").load("../inc/header.html");
-			$("#gnb").load("../inc/gnb.html");
-		});
-	</script>
-</head>
-	<div id="headers"></div>
-	<div id="gnb"></div>
+<div th:replace="/manager/common/header.html"></div>
+<div th:replace="/manager/common/gnb.html"></div>
 	
 	<div class="sub_wrap">
 		<aside id="lnb">
 			<ul class="menu">
-				<li><a href="../user/user_list.html">회원 관리</a></li>
+				<li><a href="/manager/user/user_list">회원 관리</a></li>
 				<li class="btn_sub on"><a href="#">프로젝트 관리</a>
 					<ul class="sub_menu" style="display: block;">
-						<li class="on"><a href="../project/project_new_list.html">신규 프로젝트</a></li>
-						<li><a href="../project/project_now_list.html">진행 프로젝트</a></li>
-						<li><a href="../project/project_end_list.html">종료 프로젝트</a></li>
-						<li><a href="../project/project_return_list.html">반려 프로젝트</a></li>
+						<li><a href="/manager/project/project_new_list">신규 프로젝트</a></li>
+						<li><a href="/manager/project/project_now_list">진행 프로젝트</a></li>
+						<li><a href="/manager/project/project_end_list">종료 프로젝트</a></li>
+						<li><a href="/manager/project/project_return_list">반려 프로젝트</a></li>
 					</ul>
 				</li>
-				<li><a href="../payment/payment_list.html">결제 및 정산 관리</a></li>
-				<li><a href="../benefits/benefits.html">혜택 관리</a></li>
-				<li><a href="../board/notice_list.html">게시판관리</a></li>
+				<li><a href="/manager/payment/payment_list">결제 및 정산 관리</a></li>
+				<li><a href="/manager/board/notice_list">게시판관리</a></li>
 			</ul>
 		</aside>		
 		<div class="container clearfix">
 			<div class="content">
 				<div class="top_button">
-					<button class="custom-btn btn-5" onclick="location.href ='project_detail.html'">프로젝트 정보</button><!--
-				 --><button class="custom-btn btn-5" onclick="location.href ='#'">스토리</button><!--
-				 --><button class="custom-btn btn-5" onclick="location.href ='project_news.html'">새소식</button><!--
-				 --><button class="custom-btn btn-5" onclick="location.href ='project_review.html'">응원/리뷰</button><!--
-				 --><button class="custom-btn btn-5" onclick="location.href ='#'">리워드 정보</button>
+					<button class="custom-btn btn-5" th:onclick="|location.href ='@{/manager/project/project_detail(projectNo=${ projectNo })}'|">프로젝트 정보</button><!--
+				 	--><button class="custom-btn btn-5" onclick="location.href ='#'">스토리</button><!--
+				 	--><button class="custom-btn btn-5" onclick="location.href ='/manager/project/project_news'">새소식</button><!--
+				 	--><button class="custom-btn btn-5" onclick="location.href ='/manager/project/project_review'">응원/리뷰</button><!--
+					--><button class="custom-btn btn-5" onclick="location.href ='#'">리워드 정보</button>
 				</div>
 				<div class="list_tit">
 					<h3>프로젝트 정보</h3>
@@ -45,8 +35,8 @@
 							<table class="search_list">
 								<caption>상세보기</caption>
 								<colgroup>
-									<col>
-									<col>
+									<col style="width:10%;">
+									<col style="width:10%;">
 									<col>
 								</colgroup>
 								<thead>
@@ -57,10 +47,19 @@
 									</tr>
 								</thead>
 								<tbody class="td_bcw">
-									<tr>
-										<td>63</td>
-										<td>가전</td>
-										<td>[한정수량]술장고 + 스피커 진로 두꺼비와 제대로 홈술!</a></td>
+									<tr th:each="project : ${ projectDetail }">
+										<td th:text= "${ project.projectNo }"></td>
+										<td><th:block th:switch="${project.categoryCode}">
+											<p th:case="1">리빙</p>
+											<p th:case="2">가전</p>
+											<p th:case="3">뷰티</p>
+											<p th:case="4">의류</p>
+											<p th:case="5">잡화</p>
+											<p th:case="6">굿즈</p>
+											<p th:case="7">영화/공연</p>
+											<p th:case="8">기타</p>
+										</th:block></td>
+										<td th:text="${ project.projectName }"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -88,14 +87,27 @@
 									</tr>
 								</thead>
 								<tbody class="td_bcw">
-									<tr>
-										<td class="txt_red">심사중</td>
-										<td>2024-03-15</td>
-										<td>0000-00-00</td>
-										<td>2024-03-29</td>
-										<td>2024-03-29</td>
-										<td>2024-03-29</td>
-										<td>2024-03-29</td>
+									<tr th:each="project : ${ projectDetail }">
+										<td>
+											<th:block th:switch="${project.projectStatus}">
+												<p th:case="1" class="txt_red">심사대기</p>
+												<p th:case="2" class="txt_red">심사중</p>
+												<p th:case="3">승인완료</p>
+												<p th:case="4">승인반려</p>
+												<p th:case="5">오픈예정</p>
+												<p th:case="6">진행중</p>
+												<p th:case="7">일시중지</p>
+												<p th:case="8">결제진행중</p>
+												<p th:case="9">배송대기중</p>
+												<p th:case="10">프로젝트마감</p>
+											</th:block>
+										</td>
+										<td th:text="${#dates.format(project.requestDate, 'yyyy-MM-dd')}"></td>
+										<td th:text="${#dates.format(project.approvalDate, 'yyyy-MM-dd')}"></td>
+										<td th:text="${#dates.format(project.petitionDate, 'yyyy-MM-dd')}"></td>
+										<td th:text="${#dates.format(project.startDate, 'yyyy-MM-dd')}"></td>
+										<td th:text="${#dates.format(project.endDate, 'yyyy-MM-dd')}"></td>
+										<td th:text="${#dates.format(project.dueDate, 'yyyy-MM-dd')}"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -119,12 +131,12 @@
 									</tr>
 								</thead>
 								<tbody class="td_bcw">
-									<tr>
-										<td>10,000,000</td>
-										<td>17,000,500</td>
-										<td>170%</td>
+									<tr th:each="project : ${ projectDetail }">
+										<td th:text= "${ project.targetAmount }"></td>
+										<td th:text= "${ project.achievedAmount }"></td>
+										<td th:text= "(${ project.achievedAmount } / ${ project.targetAmount } * 100)"></td>
 										<td>170명</td>
-										<td>Y</td>
+										<td th:text= "${ project.deliveryYN }"></td>
 									</tr>
 								</tbody>
 							</table>
@@ -155,7 +167,7 @@
 						
 						<div class="write nshadow">
 							<div class="write_btn align_c mt35">
-								<button class="btn btn_modify" onclick="location.href ='project_modify.html'">수정</button>
+								<button class="btn btn_modify" onclick="location.href ='/manager/project/project_modify'">수정</button>
 								<!-- <button class="btn" onclick="history.go(-1)">목록</button> -->
 								<button class="btn btn_del">삭제</button>
 							</div>

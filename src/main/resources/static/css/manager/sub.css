@@ -9,12 +9,12 @@
 .login_box .login p.txt{text-align:center; font-size:14px; color:#696767; line-height:22px; padding:20px 0;}
 .login_box .login legend{font-size:0; overflow:hidden;}
 .login_box .login div{height:45px; background-color:#a5a5a6; background-repeat:no-repeat; background-position:left center;}
-.login_box .login div.input_id{background-image:url(/images/manager/common//id_bg.png);}
-.login_box .login div.input_pw{background-image:url(/images/manager/common//pw_bg.png);}
+.login_box .login div.input_id{background-image:url(/images/manager/common/id_bg.png);}
+.login_box .login div.input_pw{background-image:url(/images/manager/common/pw_bg.png);}
 .login_box .login div span input{padding:0; border:0; height:100%; width:100%; padding-left:10px; background-color:transparent;color:rgba(255,255,255,0.6); box-sizing:border-box;}
-.login_box .login div span{display:block; height:100%; padding-left:45px; box-sizing:border-box; background-image:url(/images/manager/common//login_bar.png); background-repeat:no-repeat;background-position:45px center;}
-.login_box .login button.btn_login{display:block; width:100%; height:52px; padding:0 27px; border:0; margin-top:15px; text-align:left; background-image:url(/images/manager/common//btn_bg.png); background-repeat:repeat-x; background-position:center center; border-radius:5px; font-size:14px; color:#fff;}
-.login_box .login button.btn_login span{display:block; background-image:url(/images/manager/common//login_bg.png); background-repeat:no-repeat; background-position:right center;}
+.login_box .login div span{display:block; height:100%; padding-left:45px; box-sizing:border-box; background-image:url(/images/manager/common/login_bar.png); background-repeat:no-repeat;background-position:45px center;}
+.login_box .login button.btn_login{display:block; width:100%; height:52px; padding:0 27px; border:0; margin-top:15px; text-align:left; background-image:url(/images/manager/common/btn_bg.png); background-repeat:repeat-x; background-position:center center; border-radius:5px; font-size:14px; color:#fff;}
+.login_box .login button.btn_login span{display:block; background-image:url(/images/manager/common/login_bg.png); background-repeat:no-repeat; background-position:right center;}
 .login_box .under_txt {font-size:13px;word-break:keep-all;padding:10px;}
 /* dashboard */
 /* .dashboard{width:1284px;} */
@@ -46,7 +46,7 @@
 .dashboard .status_wrap .status_tit {line-height:55px; border-bottom:1px solid #e9e9e9; padding-left:25px; background-color:#FFF;text-align:center;}
 .dashboard .status_wrap .status_tit h2{display:inline-block; font-weight:400; font-size:18px;}
 .dashboard .status_wrap .status_inner {padding:50px;background-color: #fff;}
-.dashboard .status_wrap p.txt{background-image:url(/images/manager/common//play.png); background-repeat:no-repeat; background-position:left center; padding-left:25px; font-size:18px; color:#4b4b4b;}
+.dashboard .status_wrap p.txt{background-image:url(/images/manager/common/play.png); background-repeat:no-repeat; background-position:left center; padding-left:25px; font-size:18px; color:#4b4b4b;}
 .dashboard .status_wrap .status_box {max-width:800px;margin:auto;}
 .dashboard .status_wrap .status_box table th {font-size:24px;font-weight:normal;height:80px;    border-bottom: 1px solid #e0e0e0;}
 .dashboard .status_wrap .status_box table td {font-size:20px;border-right:none;}
@@ -90,7 +90,7 @@
 .dashboard .graph_list .main_graph.no_tab{margin-left:0;}
 .dashboard .graph_list .main_graph iframe{width:100%; height:100%; padding-bottom:30px; box-sizing:border-box; border:0; overflow:hidden;}
 .dashboard .graph_list .main_graph > div{position:absolute; top:-9999px; right:-9999px; height:100%; padding:30px 50px; box-sizing:border-box; width:100%;}
-.dashboard .graph_list .main_graph > div p.txt{background-image:url(/images/manager/common//play.png); background-repeat:no-repeat; background-position:left center; padding-left:25px; font-size:18px; color:#4b4b4b;}
+.dashboard .graph_list .main_graph > div p.txt{background-image:url(/images/manager/common/play.png); background-repeat:no-repeat; background-position:left center; padding-left:25px; font-size:18px; color:#4b4b4b;}
 .dashboard .graph_list .main_graph > div.on{top:0; right:0;}
 
 .dashboard .graph_list.graph_sub{width:49.5%; padding-right:0;}
@@ -120,7 +120,7 @@
 .dashboard .clock .new_event p.txt span{color:#c0ff02;}
 
 .dashboard .clock .new_event > div{padding:24px 0;}
-.dashboard .clock .new_event > div .type_left{display:inline-block; width:100px; vertical-align:middle; background-image:url(/images/manager/common//login_bar.png); background-repeat:no-repeat; background-position:right center; background-size:1px 50px;}
+.dashboard .clock .new_event > div .type_left{display:inline-block; width:100px; vertical-align:middle; background-image:url(/images/manager/common/login_bar.png); background-repeat:no-repeat; background-position:right center; background-size:1px 50px;}
 .dashboard .clock .new_event > div .type_left span{display:block; width:68px; height:68px; margin:0 auto; border-radius:50%; background-color:rgba(0,0,0,0.2); text-align:center; color:#fff; font-size:14px; padding-top:38px; box-sizing:border-box; background-repeat:no-repeat; background-position:center center;}
 .dashboard .clock .new_event > div .type_left span.ico01{background-image:url(/images/manager/sub/ico_type01.png);}
 .dashboard .clock .new_event > div .type_left span.ico02{background-image:url(/images/manager/sub/ico_type02.png);}
@@ -196,9 +196,9 @@
 .list_tit{position:relative; height:55px; background-color:#5e5e5e; padding:0 25px; border-radius:5px 5px 0 0}
 .list_tit h3{font-size:18px; color:#fff; line-height:55px; background-image:url(/images/manager/sub/ico_notice.png); background-repeat:no-repeat; background-position:left center; padding-left:30px; font-weight:400;}
 .list_tit button.btn_add{position:absolute; top:11.5px; right:25px; border:0; width:110px; height:32px; background-color:#eeeeee; border-radius:3px; box-shadow:2px 2px 2px rgba(0,0,0,0.26);}
-.list_tit button.btn_add span{background-image:url(/images/manager/common//btn_add.png); background-repeat:no-repeat; background-position:left center; padding-left:30px; font-size:14px; color:#414040;}
+.list_tit button.btn_add span{background-image:url(/images/manager/common/btn_add.png); background-repeat:no-repeat; background-position:left center; padding-left:30px; font-size:14px; color:#414040;}
 .list_tit .btn{position:absolute; top:11.5px; right:25px; border:0; width:110px; height:32px;text-align: center;line-height: 32px; background-color:#eeeeee; border-radius:3px; box-shadow:2px 2px 2px rgba(0,0,0,0.26);}
-.list_tit .btn.btn_add span{background-image:url(/images/manager/common//btn_add.png); background-repeat:no-repeat; background-position:left center; padding-left:30px; font-size:14px; color:#414040;}
+.list_tit .btn.btn_add span{background-image:url(/images/manager/common/btn_add.png); background-repeat:no-repeat; background-position:left center; padding-left:30px; font-size:14px; color:#414040;}
 
 div.list{padding:25px; background-color:#FFF; box-shadow:1px 1px 3px rgba(0,0,0,0.1); border-radius:0 0 5px 5px}
 div.list table.search{width:100%; border:1px solid #d5d5d5; border-bottom:0px none;}
@@ -207,7 +207,7 @@ div.list table.search td{padding:10px 20px; background-color:#f3f3f3; border-bot
 div.list table.search td .btn {display: inline-block; vertical-align: middle;  padding: 0 20px;  height: 32px;   border-radius: 4px; background-color: #5e5e5e;  color: #fff; border: 0;  margin-right: 15px; line-height: 32px;}
 div.list table.search td input[type=radio]{display:inline-block; margin:0; vertical-align:middle; margin-right:5px;}
 div.list table.search td input[type=text]{width:184px; display:inline-block; vertical-align:middle; height:32px; border:1px solid #d5d5d5; box-sizing:border-box; padding-left:10px;}
-div.list table.search td input[type=text].ico_date{display:inline-block; width:150px; background-image:url(/images/manager/common//calendar.png); background-repeat:no-repeat; background-position:92% center;}
+div.list table.search td input[type=text].ico_date{display:inline-block; width:150px; background-image:url(/images/manager/common/calendar.png); background-repeat:no-repeat; background-position:92% center;}
 div.list table.search td span.hypen{display:inline-block; vertical-align:middle; padding:0 2px;}
 div.list table.search td label{display:inline-block; vertical-align:middle; margin-right:10px; font-size:15px; color:#4b4b4b;}
 div.list table.search td select{width:100%; height:32px; border:1px solid #d5d5d5; box-sizing:border-box; padding-left:5px;}
@@ -232,17 +232,17 @@ ul.list_tab li.on a{background-color:#454545;}
 .search_wrap .result {background-color:#fff;}
 .search_wrap .result .r_btn {position:absolute;right:20px;bottom:20px;}
 .search_wrap .result{position:relative; height:60px; background-color:#fff; padding:0 25px;}
-.search_wrap .result p.txt{line-height:60px; background-image:url(/images/manager/common//dot.png); background-repeat:no-repeat; background-position:left center; padding-left:10px;}
+.search_wrap .result p.txt{line-height:60px; background-image:url(/images/manager/common/dot.png); background-repeat:no-repeat; background-position:left center; padding-left:10px;}
 .search_wrap .result .btn_wrap{position:absolute; top:12px; right:12px;}
 .search_wrap .result .btn_wrap > * {float:left; margin-left:10px;}
 .search_wrap .result .btn_wrap > *:first-child {margin-left:0;}
 .search_wrap .result .btn_wrap select{display:inline-block; vertical-align:middle; padding:0 15px 0 5px; border:1px solid #b7b7b7; box-sizing:border-box; height:36px; border-radius:3px; box-shadow:1px 1px 1px rgba(0,0,0,0.15);}
 .search_wrap .result .btn_wrap button.btn_del{display:inline-block; vertical-align:middle; border:0; background-color:#535353; color:#fff; border-radius:3px; height:36px; width:115px;}
-.search_wrap .result .btn_wrap button.btn_del span{background-image:url(/images/manager/common//btn_x.png); background-repeat:no-repeat; background-position:right center; padding-right:25px;}
+.search_wrap .result .btn_wrap button.btn_del span{background-image:url(/images/manager/common/btn_x.png); background-repeat:no-repeat; background-position:right center; padding-right:25px;}
 .search_wrap .result .btn_wrap .btn{display:inline-block;text-align: center;line-height: 36px; vertical-align:middle;      color: inherit;background-color:#fff;border: 1px solid #b7b7b7; border-radius:3px; height:36px; width:115px;box-sizing:border-box;box-shadow: 1px 1px 1px rgba(0,0,0,0.15);}
 
 .search_wrap .result .btn_wrap .order > * {float:left; line-height:36px;}
-.search_wrap .result .btn_wrap .order dt {background:url(/images/manager/common//dot.png) left center no-repeat; padding:0 10px;}
+.search_wrap .result .btn_wrap .order dt {background:url(/images/manager/common/dot.png) left center no-repeat; padding:0 10px;}
 .search_wrap .result .btn_wrap .order dd {padding:0 10px 0 0;}
 .search_wrap .result .btn_wrap .order dd strong {font-weight:400; padding-right:5px;}
 .search_wrap .result .btn_wrap .order dd span {display:inline-block; vertical-align:middle;}
@@ -272,7 +272,7 @@ ul.list_tab li.on a{background-color:#454545;}
 .search_wrap .table_btn .btn{display:inline-block; vertical-align:middle; min-width:113px;box-sizing:border-box;padding:0 10px; color: #fff;box-sizing:border-box; height:36px;line-height: 36px;text-align:center; border-radius:4px; box-shadow:1px 1px 1px rgba(0,0,0,0.15); background-color:#37BD6D; font-size:13px;}
 .search_wrap .table_btn .btn_search { background-color:#6c6c6c; font-size:13px;}
 .search_wrap .table_btn .btn_del {display:inline-block; vertical-align:middle; border:0; background-color:#535353; color:#fff; border-radius:3px; height:36px;width:auto; }
-.search_wrap .table_btn .btn_del span {background-image:url(/images/manager/common//btn_x.png); background-repeat:no-repeat; background-position:right center; padding-right:25px;}
+.search_wrap .table_btn .btn_del span {background-image:url(/images/manager/common/btn_x.png); background-repeat:no-repeat; background-position:right center; padding-right:25px;}
 .search_wrap .table_btn {padding:0 20px 10px 20px;}
 .thumbnail{padding:0 20px; overflow:hidden;}
 .thumbnail.type01 {    background-color: #f3f3f3;}
@@ -292,18 +292,18 @@ ul.list_tab li.on a{background-color:#454545;}
 .tabbox_wrap {padding:0;}
 .tabbox_wrap .tab_box {display:none;}
 .tabbox_wrap .tab_box:first-of-type {display:block;}
-.view > p.tit{background-image:url(/images/manager/common//play.png); background-repeat:no-repeat; background-position:left center; font-size:16px; color:#454545; padding-left:22px;}
+.view > p.tit{background-image:url(/images/manager/common/play.png); background-repeat:no-repeat; background-position:left center; font-size:16px; color:#454545; padding-left:22px;}
 .view table{width:100%; border:1px solid #d5d5d5; border-bottom:0px none;}
 .view table th{padding:10px 20px; background-color:#eaeaea; font-size:15px; color:#4b4b4b; font-weight:400; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5}
 .view table td{position:relative; padding:10px 20px; background-color:#f3f3f3; border-bottom:1px solid #d5d5d5;}
-.view table td .btn_add {width: 74px;border-radius: 5px;	height: 32px;background-color: #444;background-image: url(/images/manager/common//modal_btn_add.png);background-repeat: no-repeat;background-position: right 14px center;padding-right: 20px;font-size: 14px;color:#fff;border:none;margin-left:10px;}
-.view table td .btn_minus  {width: 74px;border-radius: 5px;	height: 32px;background-color: #8f8f8f;background-image: url(/images/manager/common//modal_btn_minus.png);background-repeat: no-repeat;background-position: right 14px center;padding-right: 20px;font-size: 14px;color:#fff;border:none;margin-left:10px;}
+.view table td .btn_add {width: 74px;border-radius: 5px;	height: 32px;background-color: #444;background-image: url(/images/manager/common/modal_btn_add.png);background-repeat: no-repeat;background-position: right 14px center;padding-right: 20px;font-size: 14px;color:#fff;border:none;margin-left:10px;}
+.view table td .btn_minus  {width: 74px;border-radius: 5px;	height: 32px;background-color: #8f8f8f;background-image: url(/images/manager/common/modal_btn_minus.png);background-repeat: no-repeat;background-position: right 14px center;padding-right: 20px;font-size: 14px;color:#fff;border:none;margin-left:10px;}
 .view table td  input[type=text] {height:32px;box-sizing:border-box;}
 .view table td span.status {display:inline-block;height: 30px;border:0;border-radius:4px;background-color: #b5b5b5;color:#fff;line-height: 30px;padding: 0 16px;margin: 0 10px;}
 
 .view table th i{background-repeat:no-repeat; background-position:left center; padding-left:30px;}
-.view table th i.ico_prev{background-image:url(/images/manager/common//ico_prev.png);}
-.view table th i.ico_next{background-image:url(/images/manager/common//ico_next.png);}
+.view table th i.ico_prev{background-image:url(/images/manager/common/ico_prev.png);}
+.view table th i.ico_next{background-image:url(/images/manager/common/ico_next.png);}
 .view table td input[type=radio]{display:inline-block; vertical-align:middle; margin:0; margin-right:5px;}
 .view table td label{display:inline-block; vertical-align:middle; margin-right:20px;}
 .view table td .btn {display:inline-block;height: 32px;text-align:center;padding:0 16px;box-sizing:border-box;border-radius: 4px; background-color: #5e5e5e;color:#fff;border:none;}
@@ -321,9 +321,9 @@ ul.list_tab li.on a{background-color:#454545;}
 .view table td ul li .btn{display:inline-block; vertical-align:middle; height:24px; line-height:24px;text-align:center;border:0; border-radius:3px; color:#fff; font-size:12px; padding:0 10px;}
 .view table td ul li .btn i{background-repeat:no-repeat; background-position:right center; padding-right:15px;}
 .view table td ul li button.btn_download{background-color:#6b6b6b;}
-.view table td ul li button.btn_download i{background-image:url(/images/manager/common//link.png);}
+.view table td ul li button.btn_download i{background-image:url(/images/manager/common/link.png);}
 .view table td ul li button.btn_delete{background-color:#ef3270;}
-.view table td ul li button.btn_delete i{background-image:url(/images/manager/common//ico_x_s.png); background-size:7px 7px;}
+.view table td ul li button.btn_delete i{background-image:url(/images/manager/common/ico_x_s.png); background-size:7px 7px;}
 .view .search_wrap table.search_list td {padding:0;}
 .view .search_wrap table.search_list td.align_l {padding:0 10px;}
 .view .search_wrap table.search_list th  {padding:0;}
@@ -333,7 +333,7 @@ ul.list_tab li.on a{background-color:#454545;}
 .list_tit .view_btn a.btn_list{display:inline-block; vertical-align:middle; width:120px; height:31px; background-color:#444; color:#fff; text-align:center; line-height:31px; font-size:15px; border-radius:3px}
 
 .reply dt{position:relative; background-color:#eaeaea; padding:15px 35px; border-top:1px solid #d5d5d5; border-bottom:1px solid #d5d5d5;}
-.reply dt a.writer{display:inline-block; vertical-align:middle; color:#49c1b9; background-image:url(/images/manager/common//bar.png); background-repeat:no-repeat; background-position:right center; background-size:1px 11px; padding-right:10px; margin-right:10px;}
+.reply dt a.writer{display:inline-block; vertical-align:middle; color:#49c1b9; background-image:url(/images/manager/common/bar.png); background-repeat:no-repeat; background-position:right center; background-size:1px 11px; padding-right:10px; margin-right:10px;}
 .reply dt .time{font-size:11px; color:#8c8c8c; display:inline-block; vertical-align:middle;}
 .reply dt .btn_area{position:absolute; top:11px; right:20px }
 .reply dt .btn_area a{display:inline-block; width:60px; height:30px; text-align:center; line-height:30px; border-radius:3px;    box-sizing: border-box;}
@@ -341,7 +341,7 @@ ul.list_tab li.on a{background-color:#454545;}
 .reply dt .btn_area .reply_modify{display:inline-block; width:60px; height:30px; text-align:center; line-height:30px; border-radius:3px;background-color:#FFF; border:1px solid #d5d5d5; color:#5e5e5e; cursor:pointer;padding:0;}
 .reply dt img{display:inline-block; vertical-align:middle; margin-right:5px;}
 .reply dd{position:relative;color:#666; background-color:#f5f5f5; font-size:14px; line-height:24px; color:#131313;}
-.reply dd i.answer{position:absolute; top:36px; left:40px; width:10px; height:10px; background-image:url(/images/manager/common//answer.png); background-repeat:no-repeat; background-position:center center;}
+.reply dd i.answer{position:absolute; top:36px; left:40px; width:10px; height:10px; background-image:url(/images/manager/common/answer.png); background-repeat:no-repeat; background-position:center center;}
 
 .reply div.reply_txt{padding:30px 60px;}
 .reply div.modify{padding:30px; display:none;}
@@ -363,14 +363,14 @@ ul.list_tab li.on a{background-color:#454545;}
 /* write */
 div.write{padding:25px; background-color:#FFF; box-shadow:1px 1px 3px rgba(0,0,0,0.1); border-radius:0 0 5px 5px}
 div.write.nshadow{box-shadow:none;}
-div.write > p.tit{background-image:url(/images/manager/common//play.png); background-repeat:no-repeat; background-position:left center; font-size:16px; color:#454545; padding-left:22px; margin-bottom:10px;}
+div.write > p.tit{background-image:url(/images/manager/common/play.png); background-repeat:no-repeat; background-position:left center; font-size:16px; color:#454545; padding-left:22px; margin-bottom:10px;}
 div.write > p.tit span{padding-left:10px;}
 div.write table{width:100%; border:1px solid #d5d5d5; border-bottom:0px none; margin-bottom:30px;}
 div.write table th{padding:10px 20px; background-color:#eaeaea; font-size:15px; color:#4b4b4b; font-weight:400; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5}
 div.write table td{position:relative; padding:10px 20px; background-color:#f3f3f3; border-bottom:1px solid #d5d5d5;}
 div.write table td select{display:inline-block; vertical-align:middle; height:32px; padding:0 15px 0 5px; border:1px solid #d5d5d5; background-color:#FFF; box-sizing:border-box; margin-right:10px;}
 div.write table td input[type=text]{width:100%; display:block; height:32px; border:1px solid #d5d5d5; box-sizing:border-box; padding-left:10px;}
-div.write table td input[type=text].ico_date{display:inline-block; width:150px; background-image:url(/images/manager/common//calendar.png); background-repeat:no-repeat; background-position:90% center;}
+div.write table td input[type=text].ico_date{display:inline-block; width:150px; background-image:url(/images/manager/common/calendar.png); background-repeat:no-repeat; background-position:90% center;}
 div.write table td input[type=text].inlineb {display:inline-block;width:auto;}
 div.write table td span.txt{font-size:14px; color:#646464; line-height:26px;}
 div.write table td .btn{display:inline-block; vertical-align:middle; padding:0 20px; height:32px; border-radius:4px; background-color:#5e5e5e; color:#fff; border:0; margin-right:15px; line-height:32px;}
@@ -382,7 +382,7 @@ div.write table td ul li{margin-right:20px; margin-top:7px;}
 div.write table td ul li:first-child{margin-top:0;}
 div.write table td ul li span.file_name{display:inline-block; vertical-align:middle;font-size:14px; color:#3899a7; margin-right:10px;}
 div.write table td ul li button.btn_download{display:inline-block; vertical-align:middle; height:24px; background-color:#6b6b6b; border:0; border-radius:3px; color:#fff; font-size:12px; padding:0 10px;}
-div.write table td ul li button.btn_download i{background-image:url(/images/manager/common//link.png); background-repeat:no-repeat; background-position:right center; padding-right:15px;}
+div.write table td ul li button.btn_download i{background-image:url(/images/manager/common/link.png); background-repeat:no-repeat; background-position:right center; padding-right:15px;}
 div.write table td p.address{margin-bottom:7px;}
 div.write table td p.address input[type=text]{display:inline-block; vertical-align:middle; width:30%;}
 div.write table td p.address_detail input[type=text]{display:inline-block; vertical-align:middle; width:49%;}
@@ -404,8 +404,8 @@ div.write table td .btn_area.txt_btn .btn.btn_del{border:1px solid #db4a4a; colo
 
 div.write table td .btn_area.img_btn{width:69px;}
 div.write table td .btn_area.img_btn .btn{width:32px; background-color:#FFF; font-size:0; overflow:hidden; border:0;  background-repeat:no-repeat; background-position:center center;}
-div.write table td .btn_area.img_btn .btn.btn_add{background-color:#69bdd2; background-image:url(/images/manager/common//ico_plus.png); margin-right:5px;}
-div.write table td .btn_area.img_btn .btn.btn_del{background-color:#db4a4a; background-image:url(/images/manager/common//ico_x.png);}
+div.write table td .btn_area.img_btn .btn.btn_add{background-color:#69bdd2; background-image:url(/images/manager/common/ico_plus.png); margin-right:5px;}
+div.write table td .btn_area.img_btn .btn.btn_del{background-color:#db4a4a; background-image:url(/images/manager/common/ico_x.png);}
 
 
 div.write table td .img_type01{width:50%; height:32px;}
@@ -419,9 +419,9 @@ div.write table td .thumbnail .img_area{display:inline-block; vertical-align:mid
 
 div.write table td .thumb_txt span.file_name{display:inline-block; vertical-align:middle;font-size:14px; color:#3899a7; margin:0 10px 10px 0;}
 div.write table td .thumb_txt button.btn_download{display:inline-block; vertical-align:middle; height:24px; background-color:#6b6b6b; border:0; border-radius:3px; color:#fff; font-size:12px; padding:0 10px; margin-bottom:10px;}
-div.write table td .thumb_txt button.btn_download i{background-image:url(/images/manager/common//link.png); background-repeat:no-repeat; background-position:right center; padding-right:15px;}
+div.write table td .thumb_txt button.btn_download i{background-image:url(/images/manager/common/link.png); background-repeat:no-repeat; background-position:right center; padding-right:15px;}
 div.write table td .thumb_txt a.btn_download{display:inline-block;text-align:center;line-height:24px; vertical-align:middle; height:24px; background-color:#6b6b6b; border:0; border-radius:3px; color:#fff; font-size:12px; padding:0 10px; margin-bottom:10px;}
-div.write table td .thumb_txt a.btn_download i{background-image:url(/images/manager/common//link.png); background-repeat:no-repeat; background-position:right center; padding-right:15px;}
+div.write table td .thumb_txt a.btn_download i{background-image:url(/images/manager/common/link.png); background-repeat:no-repeat; background-position:right center; padding-right:15px;}
 
 div.write table td .thumb_txt p.txt{font-size:13px; line-height:18px; color:#444444}
 
@@ -469,22 +469,22 @@ div.write .write_btn a.btn_list{display:inline-block; vertical-align:middle; wid
 .modal_wrap>.inner {display:table-cell;text-align:center;vertical-align:middle;}
 .modal_wrap .modal {display:inline-block;}
 .modal_wrap .blank {display:inline-block;width:0;height:100%;vertical-align:middle;}
-.modal .modal-header {position: relative;    padding: 0 15px;background-image:url(/images/manager/common//modal_header.png);background-repeat:no-repeat;background-position:left 27px center;}
+.modal .modal-header {position: relative;    padding: 0 15px;background-image:url(/images/manager/common/modal_header.png);background-repeat:no-repeat;background-position:left 27px center;}
 .modal .modal-header h3 {height:53px;line-height:53px;color:#fefefe;font-weight:400;padding-left:40px;background-image:none;}
-.modal .modal-header a { position: absolute; top: 0; right: 15px;display: inline-block; height: 53px; width: 24px;  font-size: 0; background: url(/images/manager/common//modal_close.png) no-repeat center center;}
+.modal .modal-header a { position: absolute; top: 0; right: 15px;display: inline-block; height: 53px; width: 24px;  font-size: 0; background: url(/images/manager/common/modal_close.png) no-repeat center center;}
 .modal .write {padding:5px 15px;}
 .modal .write table th {background-color:#e2e2e2;}
 .modal .write table.type_col tbody tr td {border-left: 1px solid #d5d5d5; border-top: 1px solid #d5d5d5;}
 .modal .write .write_btn button {width: 115px;height: 42px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-color: #ff8037;	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.15);	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.15);box-shadow: 1px 1px 1px rgba(0,0,0,.15);}
-.modal .write .write_btn .btn_add {width: 74px;	height: 32px;background-color: #444;background-image: url(/images/manager/common//modal_btn_add.png);background-repeat: no-repeat;background-position: right 14px center;padding-right: 20px;font-size: 14px;color:#fff;border:none;}
+.modal .write .write_btn .btn_add {width: 74px;	height: 32px;background-color: #444;background-image: url(/images/manager/common/modal_btn_add.png);background-repeat: no-repeat;background-position: right 14px center;padding-right: 20px;font-size: 14px;color:#fff;border:none;}
 .modal .write .write_btn .btn_save {width: 74px;	height: 32px;background-color: #ff8037;background-repeat: no-repeat;background-position: right 14px center;font-size: 14px;color:#fff;border:none;}
 
 .modal .write table.category_name tr td {text-align:left;}
 
 .modal_wrap .modal-body {background-color:#fff;}
-.modal .list_tit {position: relative;    padding: 0 15px;background-color: #ff8037;background-image:url(/images/manager/common//modal_header.png);background-repeat:no-repeat;background-position:left 27px center;border-radius:0;}
+.modal .list_tit {position: relative;    padding: 0 15px;background-color: #ff8037;background-image:url(/images/manager/common/modal_header.png);background-repeat:no-repeat;background-position:left 27px center;border-radius:0;}
 .modal .list_tit h3 {height:53px;line-height:53px;color:#fefefe;font-weight:400;padding-left:40px;text-align: left;}
-.modal .list_tit a { position: absolute; top: 0; right: 15px;display: inline-block; height: 53px; width: 24px;  font-size: 0; background: url(/images/manager/common//modal_close.png) no-repeat center center;}
+.modal .list_tit a { position: absolute; top: 0; right: 15px;display: inline-block; height: 53px; width: 24px;  font-size: 0; background: url(/images/manager/common/modal_close.png) no-repeat center center;}
 .modal .list {padding:5px 15px;}
 
 .modal .list table {width:100%;}
@@ -497,7 +497,7 @@ div.write .write_btn a.btn_list{display:inline-block; vertical-align:middle; wid
 .modal .list table.type_col tbody tr td {border-left: 1px solid #d5d5d5; border-top: 1px solid #d5d5d5;}
 .modal .list .write_btn button {width: 115px;height: 42px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-color: #e01f5e;	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.15);	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.15);box-shadow: 1px 1px 1px rgba(0,0,0,.15);}
 .modal .list table td {position:relative; padding:10px 20px; background-color:#f3f3f3; border-bottom:1px solid #d5d5d5;}
-.modal .list table td input[type=text].ico_date {width:150px; background-image:url(/images/manager/common//calendar.png); background-repeat:no-repeat; background-position:90% center;}
+.modal .list table td input[type=text].ico_date {width:150px; background-image:url(/images/manager/common/calendar.png); background-repeat:no-repeat; background-position:90% center;}
 .modal .list table td span.txt {color:#646464; line-height:26px;}
 .modal .list .write_btn button {width: 115px;height: 42px; color: #fff; font-size: 15px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-color: #e01f5e;	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.15);	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,.15);box-shadow: 1px 1px 1px rgba(0,0,0,.15);}
 .modal .list .write_btn {margin-bottom:35px;}
@@ -505,14 +505,14 @@ div.write .write_btn a.btn_list{display:inline-block; vertical-align:middle; wid
 
 /*추가 */
 .login_box .logo h1 {font-size:0;}
-.list > p.tit2{background-image:url(/images/manager/common//play.png); background-repeat:no-repeat; background-position:left center; font-size:16px; color:#454545; padding-left:22px;}
+.list > p.tit2{background-image:url(/images/manager/common/play.png); background-repeat:no-repeat; background-position:left center; font-size:16px; color:#454545; padding-left:22px;}
 .search_wrap table.search_list td a.btn_mng {display:inline-block;    margin-right: 0;    padding: 0 20px;}
 
 .search_wrap table.search_list.goods td .thumb_img {padding:10px 0;text-align:center;width: 100px;display: inline-block;border-radius: 0;box-shadow: none;border: none;height: auto;margin: auto;background-color: rgba(255,255,255,0);    line-height: normal;}
 .search_wrap table.search_list.goods td  .thumb_img img {max-width:100%;}
 
 .modal .write .write_btn .btn_add {margin-right:10px;padding-left:0;}
-.modal .list_tit2 {position: relative;height:10px;    padding: 0 15px;background-color: #fff;background-image:url(/images/manager/common//modal_header.png);background-repeat:no-repeat;background-position:left 27px center;border-radius:0;}
+.modal .list_tit2 {position: relative;height:10px;    padding: 0 15px;background-color: #fff;background-image:url(/images/manager/common/modal_header.png);background-repeat:no-repeat;background-position:left 27px center;border-radius:0;}
 .modal .list_tit2 h3 {height:40px;line-height:40px;color:#fefefe;font-weight:400;padding-left:40px;text-align: left;font-size:0;}
 .modal .list_tit2 a { position: absolute; top: 0; right: 15px;display: inline-block; height: 40px; width: 24px;  font-size: 0; background: url(/images/manager/sub/pop_close.png) no-repeat center center;background-size:15px 15px;}
 .modal .list {padding:5px 15px;}

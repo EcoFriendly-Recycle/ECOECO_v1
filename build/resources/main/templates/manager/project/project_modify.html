@@ -1,39 +1,29 @@
-<head>
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<script type="text/javascript">   
-		$(document).ready( function() {
-			$("#headers").load("../inc/header.html");
-			$("#gnb").load("../inc/gnb.html");
-		});
-	</script>
-</head>
-	<div id="headers"></div>
-	<div id="gnb"></div>
+<div th:replace="/manager/common/header.html"></div>
+<div th:replace="/manager/common/gnb.html"></div>
 	
 	<div class="sub_wrap">
 		<aside id="lnb">
 			<ul class="menu">
-				<li><a href="../user/user_list.html">회원 관리</a></li>
+				<li><a href="/manager/user/user_list.html">회원 관리</a></li>
 				<li class="btn_sub on"><a href="#">프로젝트 관리</a>
 					<ul class="sub_menu" style="display: block;">
-						<li class="on"><a href="../project/project_new_list.html">신규 프로젝트</a></li>
-						<li><a href="../project/project_now_list.html">진행 프로젝트</a></li>
-						<li><a href="../project/project_end_list.html">종료 프로젝트</a></li>
-						<li><a href="../project/project_return_list.html">반려 프로젝트</a></li>
+						<li><a href="/manager/project/project_new_list">신규 프로젝트</a></li>
+						<li><a href="/manager/project/project_now_list">진행 프로젝트</a></li>
+						<li><a href="/manager/project/project_end_list">종료 프로젝트</a></li>
+						<li><a href="/manager/project/project_return_list">반려 프로젝트</a></li>
 					</ul>
 				</li>
-				<li><a href="../payment/payment_list.html">결제 및 정산 관리</a></li>
-				<li><a href="../benefits/benefits.html">혜택 관리</a></li>
-				<li><a href="../board/notice_list.html">게시판관리</a></li>
+				<li><a href="/manager/payment/payment_list.html">결제 및 정산 관리</a></li>
+				<li><a href="/manager/board/notice_list.html">게시판관리</a></li>
 			</ul>
 		</aside>		
 		<div class="container clearfix">
 			<div class="content">
 				<div class="top_button">
-					<button class="custom-btn btn-5" onclick="location.href ='project_detail.html'">프로젝트 정보</button><!--
+					<button class="custom-btn btn-5" onclick="location.href ='/manager/project/project_detail'">프로젝트 정보</button><!--
 				 --><button class="custom-btn btn-5" onclick="location.href ='#'">스토리</button><!--
-				 --><button class="custom-btn btn-5" onclick="location.href ='project_news.html'">새소식</button><!--
-				 --><button class="custom-btn btn-5" onclick="location.href ='project_review.html'">응원/리뷰</button><!--
+				 --><button class="custom-btn btn-5" onclick="location.href ='/manager/project/project_news'">새소식</button><!--
+				 --><button class="custom-btn btn-5" onclick="location.href ='/manager/project/project_review'">응원/리뷰</button><!--
 				 --><button class="custom-btn btn-5" onclick="location.href ='#'">리워드 정보</button>
 				</div>
 				<div class="list_tit">
