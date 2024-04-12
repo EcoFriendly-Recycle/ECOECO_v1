@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>예약결제 페이지</title>
+  <style>
+    .table-container {
+  display: table;
+  width: 300px;
+  border-collapse: collapse;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+  </style>
+</head>
+<body>
+  <div class="table-container">
+    <div class="table-row">
+      <div class="table-cell label">은행명</div>
+      <div class="table-cell">
+        <select class="input-field">
+          <option value="bank1">우리은행</option>
+          <option value="bank2">국민은행</option>
+          <option value="bank3">신한은행</option>
+          <!-- 여기에 추가적인 은행 옵션을 넣을 수 있습니다 -->
+        </select>
+      </div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell label">계좌번호</div>
+      <div class="table-cell">
+        <input type="text" class="input-field" placeholder="계좌번호를 입력하세요">
+      </div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell label">예금주</div>
+      <div class="table-cell">
+        <input type="text" class="input-field" placeholder="예금주를 입력하세요">
+      </div>
+    </div>
+  </div>
+  
+  <div class="button-container">
+    <button class="payment-button">결제</button>
+    <button class="cancel-button">취소</button>
+  </div>
+</body>
+</html>

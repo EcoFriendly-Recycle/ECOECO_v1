@@ -1,0 +1,37 @@
+.banner {
+    position: relative;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    max-width: 1440px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+.header_banner {
+    max-width: 1440px;
+    height: 200px;
+    background-image: url("../resources/static/css/user/image/FAQ_PAGE_banner.png");
+}
+.header_banner img {
+    width: 100%;
+}
+.header_text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 1000px;
+    height: 500px;
+    color: rgb(225, 225, 225);
+    font-size: 50px;
+    text-align: center;
+    z-index: 2;
+}
+.img_cover {
+    background-image: url("../image/cover.png");
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: absolute;
+    height: 300px;
+    max-width: 1440px;
+    z-index: 1;
+}

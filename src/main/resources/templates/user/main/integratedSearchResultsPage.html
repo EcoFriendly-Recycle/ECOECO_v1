@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>통합검색 후 페이지</title>
+    <style>
+        h1 {
+            text-align: center;
+            border-top: 2px solid rgb(165, 163, 163);
+            border-bottom: 2px solid rgb(165, 163, 163);
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1>"백"에 대한 20개의 결과</h1>
+    <div>
+        <div>
+            <img src="/image/city1.PNG">
+            <p>
+                25,564% 달성
+                어린이날 전 배송 무려 115p 원목블럭 kc인증 2만원대 우드빌리지
+                메이커
+            </p>
+        </div>
+        <div>
+            <img src="/image/flower1.PNG">
+            <p>
+                3,710% 달성
+                누적펀딩 2억 올봄 커피값으로 꽃구독해요!꽃구독계의 합의점
+
+                메이커
+            </p>
+        </div>
+        <div>
+            <img src="/image/flower2.PNG">
+            <p>
+                1,027% 달성
+                코털제거기 3.9억 펀딩 새롭게 바뀐 코털정기TAN!
+
+                메이커
+            </p>
+        </div>
+        <div>
+            <img src="/image/flower3.PNG">
+            <p>
+                15,867% 달성
+                마개 탄산빠진 콜라가싫다면? 꽉!(GGWAK)
+
+                메이커
+            </p>
+        </div>
+        <div>
+            <img src="/image/flower4.PNG">
+            <p>
+                2,285% 달성
+                3만원대 유럽에서 온 명품 텐셀 롬 셔츠 원피스
+
+                메이커
+            </p>
+        </div>
+        <div>
+            <img src="/image/flower5.PNG">
+            <p>
+                55% 달성
+                짐볼체어 앉기만 해도 습관처럼, 알아서 운동이 되는 의자가 있다면?
+
+                메이커
+            </p>
+        </div>
+    </div>
+
+    <!-- 페이지 넘김 버튼 -->
+    <div class="pagination">
+        <button class="arrow">&lt;</button>
+        <button class="active">1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button class="arrow">&gt;</button>
+    </div>
+
+    <!-- 제목,내용 셀렉트 박스 -->
+    <div class="selection-box">
+        <select id="option">
+            <option value="title">제목</option>
+            <option value="content">내용</option>
+            <option value="title_content">제목 + 내용</option>
+        </select>
+    </div>
+
+    <!-- 검색 박스 -->
+    <div class="search-box">
+        <input type="text" id="search">
+        <button onclick="search()">검색</button>
+    </div>
+    
+</body>
+</html>

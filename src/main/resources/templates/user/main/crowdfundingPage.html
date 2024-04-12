@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>펀딩 후원(주문) 페이지</title>
+  <style>
+    .option {
+      text-align: center;
+    }
+    .border {
+      border-color: rgb(172, 172, 172);
+      border-width: 2px;
+      border-radius: 10px;
+      width: 500px;
+      height: 300px;
+      border-style: solid;
+      border-bottom: 1px solid rgb(70, 70, 70);
+      padding-bottom: 30px;
+    }
+    .discount {
+      border-bottom: 1px solid rgb(172, 172, 172);
+      padding-bottom: 30px;
+    }
+    .vertical-line {
+    width: 0; /* 실선의 두께, 0으로 설정하여 세로 실선으로 만듦 */
+    height: 100px; /* 실선의 높이 */
+    border-left: 2px solid black; /* 세로 실선의 스타일 및 색상 설정 */
+    }
+    .background-box {
+    width: 100px; /* 네모난 객체의 너비 */
+    height: 100px; /* 네모난 객체의 높이 */
+    background-color: #777777; /* 배경색 설정 */
+    position: absolute; /* 절대 위치 설정 */
+    top: 50%; /* 상단 위치 */
+    left: 50%; /* 왼쪽 위치 */
+    transform: translate(-50%, -50%); /* 가운데 정렬 */
+    z-index: -1; /* 버튼 뒤에 배치하기 위해 z-index 설정 */
+    }
+  </style>
+</head>
+<body>
+  <h3>펀딩 후원 정보</h3>
+  <div class="purchase info">
+    <img src="/semi project/image/flower1.PNG">
+    <p>프로젝트명</p>
+    <p>리워드 선택한 목록</p>
+    <p>리워드1</p>
+    <p>리워드2</p>
+  </div>
+
+  <h3>쿠폰적용</h3>
+  <div class="selection-box">
+    <select id="option">
+        <option value="null">---선택안함---</option>
+        <option value="no1">회원가입 축하쿠폰 1000원</option>
+        <option value="no2">첫결제 응원쿠폰 3000원</option>
+        <option value="no3">생일자 축하쿠폰 5000원</option>
+    </select>
+  </div>
+
+  <div class="border">
+    <h3>총 결제금액</h3>
+    <p>상품 금액</p>
+    <p>49,900원</p>
+    <p>할인 금액</p>
+    <p class="discount">0원</p>
+    <h4>총1건</h4>
+    <p>49,900원</p>
+  </div>
+
+  <div>
+    <h3>결제방법</h3>
+    <p>즉시결제</p>
+    <div class="background-box">
+      <a href="">
+        <img src="/semi project/image/pay.png">
+      </a>
+    </div>
+    <div class="vertical-line"></div>
+    <p>예약결제</p>
+    <div class="background-box">
+      <a href="">
+        <label for="prepayment">예약결제</label>
+      </a>
+    </div>
+</body>
+</html>

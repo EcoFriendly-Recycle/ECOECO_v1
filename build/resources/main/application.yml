@@ -10,7 +10,7 @@ spring:
   servlet:
     multipart:
       #      location: C:/dev/lecture_code/spring-boot/chap07-file-upload
-      location: C:\dev\lecture_code\SEMIProject\ECOECO
+      location: C:/dev/lecture_code/semi_project/ECOECO_v1
       max-file-size: 10MB
       max-request-size: 10MB
 

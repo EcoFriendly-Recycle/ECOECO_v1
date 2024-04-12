@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오페이 결제 페이지</title>
+    <style>
+    ol {
+        list-style-type: none; /* 기본 숫자 스타일 숨김 */
+        counter-reset: section;
+    }
+
+    /* 목록 아이템의 번호 스타일 수정 */
+    ol li {
+        counter-increment: section;
+        margin-bottom: 10px;
+    }
+
+    /* 숫자를 이미지로 대체하는 스타일 적용 */
+    ol li:before {
+        content: counter(section); /* 목록의 숫자를 가져옴 */
+        background-color: #ccc; /* 이미지의 배경색 */
+        color: #fff; /* 이미지의 글자색 */
+        border-radius: 50%; /* 원 모양으로 만듦 */
+        display: inline-block;
+        width: 24px; /* 이미지 너비 */
+        height: 24px; /* 이미지 높이 */
+        text-align: center; /* 가운데 정렬 */
+        line-height: 24px; /* 세로 중앙 정렬 */
+        margin-right: 10px; /* 번호와 텍스트 간격 */
+    }
+    </style>
+</head>
+<body>
+    <img src="/image/pay.png">
+    <img src="/image/kakao phone imaage.png">
+<div>
+    <ol>
+        <li>휴대폰에서 카카오페이 결제 후,</li>
+        <li>아래 <u>결제완료</u>를 눌러주세요.</li>
+    </ol>
+</div>
+
+<button class="payment-button">결제완료</button>
+</body>
+</html>

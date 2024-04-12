@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>우리가 그린 글쓰기 페이지</title>
+</head>
+<body>
+  <h1>게시글 등록</h1>
+  <div>
+    <label for="author">작성자</label>
+    <input type="text" id="author">
+    <!-- 제목,내용 셀렉트 박스 -->
+    <div class="selection-box">
+      <select id="option">
+          <option value="all">전체</option>
+          <option value="newIdea">new아이디어</option>
+          <option value="renewal">리뉴얼</option>
+      </select>
+    </div>
+  </div>
+
+  <div>
+    <label for="image">이미지</label>
+    <input type="text" id="fileNameInput" readonly>
+    <input type="file" id="imageInput">
+  </div>
+  <script>
+    // 이미지 파일 선택 상자 요소 가져오기
+    const imageInput = document.getElementById('imageInput');
+    // 파일명을 표시할 입력 상자 요소 가져오기
+    const fileNameInput = document.getElementById('fileNameInput');
+  
+    // 이미지 파일 선택 상자의 값이 변경되었을 때 이벤트 처리
+    imageInput.addEventListener('change', function() {
+      // 선택된 파일이 없는 경우 빠져나감
+      if (!imageInput.files || imageInput.files.length === 0) {
+        fileNameInput.value = '';
+        return;
+      }
+  
+      // 파일명을 입력 상자에 표시
+      fileNameInput.value = imageInput.files[0].name;
+    });
+  </script>
+
+  <div>
+    <label for="title">제목</label>
+    <input type="text" id="titleText">
+  </div>
+
+  <div>
+    <label for="content">내용</label>
+    <input type="text" id="contentText">
+  </div>
+
+  <button type="submitButton">등록</button>
+</body>
+</html>

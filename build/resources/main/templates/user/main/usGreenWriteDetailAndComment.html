@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>우리가 그린 게시글 상세 & 댓글</title>
+  <style>
+    .content {
+      border-bottom: 5px solid rgb(150, 150, 150);
+      padding-bottom: 30px;
+    }
+    .good {
+      border-bottom: 5px solid #c2c1c1;
+      padding-bottom: 30px;
+    }
+    .container {
+      display: flex;
+    }
+    .input-box {
+      flex: 1;
+    }
+    .submit-button {
+      flex-grow: 0;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="selection-box">
+    <select id="option">
+        <option value="all">전체</option>
+        <option value="newIdea">new아이디어</option>
+        <option value="renewal">리뉴얼</option>
+    </select>
+  </div>
+
+  <h1>귀여운 꽈배기가 들어간 댕기 귀도리 뜨기</h1>
+  <div>
+    <img src="/semi project/image/profile image.png">
+    <p>홍길동</p>
+    <p>실버회원</p>
+    <img src="/semi project/image/Grade.png">
+    <p>2024.02.13</p>
+  </div>
+  <div>
+    <img src="/semi project/image/banner1.png">
+    <img src="/semi project/image/banner2.png">
+    <p>한국적인 느낌이면서도 귀여운 패션 아이템으로도 좋은 방한 아이템이죠?
+      기본 울실 버전 혹은 내부에 부클사를 달아 조금 더 귀엽고 따뜻하게도 활용할 수 있어요<br>
+      [도안에 대하여]<br>
+      댕기 귀도리는 뜨개를 쉽게 돕기 위한 설명이 덧붙혀진 차트형 도안입니다!<br>
+      한 쪽에서 점차 코를 늘려가며 귀를 덮는 부분을 만들어준 후,<br>
+      코를 다시 줄여 머리를 덮는 부분을 지나가 다시 코를 늘려 반대쪽 귀를 만들어줍니다<br>
+      머리 끈의 길이는 원하시는 만큼 떠서 어린이용으로도 알맞게 만드실 수 있어요.<br>
+      취향에 따라 부클사를 안쪽에 매치하여 자기만의 귀도리를 만들 수 도 있습니다.<br>
+      폭닥하고 도톰한 실로 쉽고 빠르게 뜰 수 있어 초보자분께도 추천드리는 도안이에요.<br>
+    </p>
+    <p class="content">
+      바늘 사이즈: 5mm대바늘, 4mm코바늘<br>
+      게이지: 5mm-8코 댕기 무늬:4mm-부클사 15코28단(10cm)<br>
+      실: Chunky andean yarn by Kaos(50g/100m)<br>
+      option: 부클사(100g/100m)<br>
+      사이즈: One size<br>
+      소요량: Chunky andean yarn 66m<br>
+      option: 부클사 20m
+    </p>
+  </div>
+
+  <div class="good">
+    <h1>댓글</h1>
+    <img src="/semi project/image/profile image.png">
+    <p>홍길동</p>
+    <p>new아이디어</p>
+    <time>2024-03-21</time>
+    <p>4월 20일에 와이프랑 첫캠핑을 가려고 하는데 그전에 도착했으면 좋겠다는 바램~~ 하자없는 놈으로...</p>
+    <div class="click-box" id="clickBox1">좋아요 (0)</div>
+  </div>
+  <script>
+    let likeCounts1 = Array.from({ length: 10 }, () => 0);
+
+    for (let i = 1; i <= 10; i++) {
+    document.getElementById('clickBox' + i).addEventListener('click', function() {
+      likeCounts1[i - 1]++;
+      this.textContent = '좋아요 (' + likeCounts1[i - 1] + ')';
+    });
+  }
+  </script>
+
+<div class="good">
+  <img src="/semi project/image/profile image.png">
+  <p>홍길동</p>
+  <p>리뉴얼</p>
+  <time>2024-03-21</time>
+  <p>4월 20일에 와이프랑 첫캠핑을 가려고 하는데 그전에 도착했으면 좋겠다는 바램~~ 하자없는 놈으로...</p>
+  <div class="click-box" id="clickBox2">좋아요 (0)</div>
+</div>
+<script>
+  let likeCounts2 = Array.from({ length: 10 }, () => 0);
+
+  for (let i = 1; i <= 10; i++) {
+  document.getElementById('clickBox' + i).addEventListener('click', function() {
+    likeCounts2[i - 1]++;
+    this.textContent = '좋아요 (' + likeCounts2[i - 1] + ')';
+  });
+}
+</script>
+
+<div class="good">
+  <img src="/semi project/image/profile image.png">
+  <p>홍길동</p>
+  <p>new아이디어</p>
+  <time>2024-03-21</time>
+  <p>4월 20일에 와이프랑 첫캠핑을 가려고 하는데 그전에 도착했으면 좋겠다는 바램~~ 하자없는 놈으로...</p>
+  <div class="click-box" id="clickBox3">좋아요 (0)</div>
+</div>
+<script>
+  let likeCounts3 = Array.from({ length: 10 }, () => 0);
+
+  for (let i = 1; i <= 10; i++) {
+  document.getElementById('clickBox' + i).addEventListener('click', function() {
+    likeCounts3[i - 1]++;
+    this.textContent = '좋아요 (' + likeCounts3[i - 1] + ')';
+  });
+}
+</script>
+
+<div class="container">
+  <input type="text" id="input-box">
+  <button class="submit-button">등록</button>
+</div>
+</body>
+</html>

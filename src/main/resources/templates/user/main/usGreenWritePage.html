@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>우리가 그린 게시글 페이지</title>
+  <style>
+     /* 박스 스타일 설정 */
+  .click-box {
+    width: calc(20% - 10px); /* 부모 요소의 1/5 너비 */
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block; /* 박스를 가로로 배치 */
+    box-sizing: border-box; /* 요소의 너비와 높이에 padding과 border를 포함 */
+  }
+    /* 그룹 요소에 대한 스타일 설정 */
+  .click-box-group {
+    margin-bottom: 10px;
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>우리가 그린</h1>
+    <p>당신의 아이디어를 들려주세요...<br>
+    좋은 글귀가 당신을 기다립니다.</p>
+    <img src="/semi project/image/main_tree_banner.png">
+  </div>
+
+  <!-- 셀렉트 박스 -->
+  <select name="category" id="category">
+    <option value="all">전체</option>
+    <option value="new idea">new아이디어</option>
+    <option value="renewal">리뉴얼</option>
+  </select>
+
+  <p>귀여운 꽈배기가 들어간 댕기 귀도리 뜨기</p>
+  <div class="click-box-group">
+    <img src="/semi project/image/profile image.png">
+    <p>김우준</p>
+    <p>2024.03.25</p>
+  </div>
+
+  <!-- 첫 번째 그룹 -->
+<div class="click-box-group">
+  <!-- 첫 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox1">좋아요 (0)</div>
+
+  <!-- 두 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox2">아쉬워요 (0)</div>
+  <img src="/semi project/image/city1.PNG">
+</div>
+
+<p>러블리 봉다리백 코바늘 가방 만들기</p>
+<div class="click-box-group">
+  <img src="/semi project/image/profile image.png">
+  <p>김동일</p>
+  <p>2024.03.25</p>
+</div>
+<!-- 두 번째 그룹 -->
+<div class="click-box-group">
+  <!-- 세 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox3">좋아요 (0)</div>
+
+  <!-- 네 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox4">아쉬워요 (0)</div>
+  <img src="/semi project/image/flower1.PNG">
+</div>
+
+<p>네모네모 바라클라바와 목도리 난생처음 뜨다 시리즈</p>
+<div class="click-box-group">
+  <img src="/semi project/image/profile image.png">
+  <p>이유란</p>
+  <p>2024.03.25</p>
+</div>
+<!-- 세 번째 그룹 -->
+<div class="click-box-group">
+  <!-- 다섯 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox5">Click Me (0)</div>
+
+  <!-- 여섯 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox6">Click Me (0)</div>
+  <img src="/semi project/image/flower2.PNG">
+
+<p>러블리 지갑 코바늘 지갑 만들기</p>
+<div class="click-box-group">
+  <img src="/semi project/image/profile image.png">
+  <p>신동우</p>
+  <p>2024.03.25</p>
+</div>
+<!-- 네 번째 그룹 -->
+<div class="click-box-group">
+  <!-- 일곱 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox7">Click Me (0)</div>
+
+  <!-- 여덟 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox8">Click Me (0)</div>
+  <img src="/semi project/image/flower3.PNG">
+</div>
+
+<p>진주담은 백 코바늘 벨벳 가방 만들기</p>
+<div class="click-box-group">
+  <img src="/semi project/image/profile image.png">
+  <p>김대한</p>
+  <p>2024.03.25</p>
+</div>
+<!-- 다섯 번째 그룹 -->
+<div class="click-box-group">
+  <!-- 아홉 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox9">Click Me (0)</div>
+
+  <!-- 열 번째 카운트가 증가되는 박스 -->
+  <div class="click-box" id="clickBox10">Click Me (0)</div>
+  <img src="/semi project/image/flower4.PNG">
+</div>
+
+<script>
+  // 클릭 횟수를 저장할 변수들
+  let likeCounts = Array.from({ length: 10 }, () => 0);
+  let dislikeCounts = Array.from({ length: 10 }, () => 0);
+
+  // 각 박스에 대한 클릭 이벤트 처리
+  for (let i = 1; i <= 10; i++) {
+    document.getElementById('clickBox' + i).addEventListener('click', function() {
+      likeCounts[i - 1]++;
+      this.textContent = '좋아요 (' + likeCounts[i - 1] + ')';
+    });
+  }
+  for (let i = 1; i <= 10; i++) {
+    document.getElementById('clickBox' + i).addEventListener('click', function() {
+      dislikeCounts[i - 1]++;
+      this.textContent = '아쉬워요 (' + dislikeCounts[i - 1] + ')';
+    });
+  }
+</script>
+
+<!-- 글쓰기 버튼 -->
+<button class="button" id="registerButton">글쓰기</button>
+<!-- 페이지 넘김 버튼 -->
+<div class="pagination">
+  <button class="arrow">&lt;</button>
+  <button class="active">1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+  <button class="arrow">&gt;</button>
+</div>
+
+<!-- 제목,내용 셀렉트 박스 -->
+<div class="selection-box">
+  <select id="option">
+      <option value="all">전체</option>
+      <option value="newIdea">new아이디어</option>
+      <option value="renewal">리뉴얼</option>
+  </select>
+</div>
+
+<!-- 검색 박스 -->
+<div class="search-box">
+  <input type="text" id="search">
+  <button onclick="search()">검색</button>
+</div>
+
+</body>
+</html>

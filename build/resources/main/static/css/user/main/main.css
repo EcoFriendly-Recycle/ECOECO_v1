@@ -1,0 +1,78 @@
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container img {
+    width: 100%;
+}
+h3 {
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+.inglists{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    padding: 0 30px;
+    margin-bottom: 50px;
+}
+.inglists .item {
+    min-height: 200px;
+    flex-basis: 250px;
+    flex-grow: 0;
+}
+.inglists .item img {
+    width: 100%;
+    max-height: 140px;
+    border-radius: 5px;
+}
+.soon_banner img {
+    width: 100%;
+
+
+}
+.soon_banner {
+    max-width: 1440px;
+    position: relative;
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+
+}
+.soon_cover {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.3;
+    z-index: 1;
+}
+.text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f3802f;
+}
+.text2 {
+    font-weight: bold;
+    color: rgba(47, 47, 47, 0.82);
+}
+.text3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(45, 45, 45, 0.6);
+}
+.soon_text1 {
+    z-index: 2;
+}
+.soon_text2 {
+    z-index: 2;
+}
+.soon_text3 {
+    z-index: 2;
+}
