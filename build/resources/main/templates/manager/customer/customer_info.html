@@ -1,0 +1,171 @@
+<head>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/manager/paymentmember.css}">
+
+</head>
+
+<div th:replace="/manager/common/header.html"></div>
+<div th:replace="/manager/common/gnb.html"></div>
+	
+	<div class="sub_wrap">
+		<aside id="lnb">
+			<ul class="menu">
+				<li class="btn_sub on">
+					<a href="#">회원 관리</a>
+					<ul class="sub_menu" style="display: block;">
+						<li class="on"><a href="/manager/customer/customer_list">회원 정보</a></li>
+					</ul>
+				</li>
+				<li><a href="../project/new_project_list.html">프로젝트 관리</a></li>
+				<li><a href="/manager/ordertab/order/order_list">결제 및 정산 관리</a></li>
+
+				<li><a href="../benefits/benefits.html">게시판관리</a></li>
+
+			</ul>
+		</aside>		
+		<div class="container clearfix">
+			<div class="content">
+
+				<div class="list_tit">
+					<h3>회원정보</h3>
+				</div>
+				<div class="list">
+                    
+					<div class="search_wrap">
+                        
+						<div class="scrollable">
+                            <div class="photoall">
+                                <div class="pimgdiv">
+                                    <img class="pimg" src="../images/JJANG3.PNG">
+                                </div>
+                            </div>
+							<button class="pdel">사진삭제</button>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">회원번호</th>
+										<th scope="col">이름</th>
+										<th scope="col">아이디</th>
+										<th scope="col">등급</th>
+										<th scope="col">생년월일</th>
+										<th scope="col">성별</th>
+										<th scope="col">가입일</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>123456</td>
+										<td>홍길동</td>
+										<td>hong12</td>
+                                        <td>
+                                            <select name="search">
+                                                <option value="all">1</option>
+                                                <option value="name">2</option>
+                                                <option value="id">3</option>
+                                                <option value="pNo">4</option>
+                                            </select>
+                                        </td>
+                                        <td>2000-01-01</td>
+                                        <td>남</td>
+                                        <td>2024-03-25</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">보유포인트</th>
+										<th scope="col">이메일</th>
+										<th scope="col">전화번호</th>
+										<th scope="col">주소</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<!-- <td class="txt_red">심사중</td> -->
+                                        <td>
+                                            <input type="text" value="500">
+                                        </td>
+										<td>hong1@naver.com</td>
+                                        <td>010-1234-5678</td>
+                                        <td>서울 종로구 인사동길 12 15층</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">계좌번호</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>국민 101-123456-78</td>
+									</tr>
+								</tbody>
+							</table>
+							<br><br><br>
+							<!-- <table class="search_list">
+								<caption>상세보기</caption>
+								<colgroup>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">메이커</th>
+										<th scope="col">메이커연락처</th>
+										<th scope="col">메이커이메일</th>
+									</tr>
+								</thead>
+								<tbody class="td_bcw">
+									<tr>
+										<td>고모텍</td>
+										<td>010-1234-5678</td>
+										<td>gomotec@gomotec.com</td>
+									</tr>
+								</tbody>
+							</table> -->
+						</div>
+						
+						<div class="write nshadow">
+							<div class="write_btn align_c mt35">
+								<button class="btn" onclick="history.go(-1)">목록</button>
+								<button class="btn btn_modify" onclick="location.href ='project_modify.html'">정보 저장</button>
+								<button class="btn btn_del">회원 삭제</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
