@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>searchinfo</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/searchinfo.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/footer.css}">
+
+</head>
+<body>
+    <header style="height: 203px; width: 1440px;">
+        <div class="middle">
+            <div class="logo">
+                <img src="/images/user/common/ecoeco_logo.png" alt="에코에코 로고">
+            </div>
+        </div>
+    </header>
+    
+    <main style="width: 1440px;">
+        <div>
+            <p style="text-align: center;">찾으실 정보를 선택해 주세요</p>
+            <br>
+            <button class="findId"><a href="/user/mypage/findId">아이디 찾기</a></button>
+            <br>
+            <br>
+            <br>
+            <button class="findPwd"><a href="/user/mypage/findPwd">비밀번호 찾기</a></button>
+        </div>
+    </main>
+
+    <div style="height: 322px; width: 1440px;">
+        <footer th:replace="user/common/footer :: footerFragment" >
+
+        </footer>
+    </div>
+
+</body>
+</html>

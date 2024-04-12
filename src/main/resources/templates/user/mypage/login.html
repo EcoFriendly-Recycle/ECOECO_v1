@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/login.css}">
+
+</head>
+<body>
+<header style="height: 203px; width: 1440px;">
+    <div class="middle">
+        <div class="logo">
+            <img src="/images/user/common/ecoeco_logo.png" alt="에코에코 로고">
+        </div>
+    </div>
+</header>
+
+<main style="width: 1440px; text-align: center;">
+    <h2>로그인</h2>
+    <div>
+        <input class="inputId" type="text" placeholder="아이디 입력">
+    </div>
+    <br>
+    <div>
+        <input class="inputPwd" type="password" placeholder="비밀번호 입력">
+    </div>
+    <p style="margin-top: 0; margin-bottom: 32px;">
+        <sub>
+            <a  style="position: relative; left: 60px" href="/user/mypage/findSearchInfo">로그인 정보를 잊으셨나요?</a>
+        </sub>
+    </p>
+    <button class="loginButton" type="button">로그인</button>
+    <br>
+    <br>
+    <div>
+        <sub>아직 ECOECO 회원이 아니신가요?
+            <u class="joinus"><a href="/user/mypage/joinus">회원가입하기</a></u></sub>
+    </div>
+    <br>
+    <br>
+</main>
+
+<div style="height: 322px; width: 1440px;">
+    <footer th:replace="user/common/footer :: footerFragment" class="footer">
+
+    </footer>
+</div>
+
+</body>
+</html>

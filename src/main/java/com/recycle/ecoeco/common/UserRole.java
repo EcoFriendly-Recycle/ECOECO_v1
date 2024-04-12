@@ -2,8 +2,8 @@ package com.recycle.ecoeco.common;
 
 public enum UserRole {
 
-    USER("USER"),
-    ADMIN("ADMIN");
+    USER("N"),
+    ADMIN("Y");
 
     private String role;
 

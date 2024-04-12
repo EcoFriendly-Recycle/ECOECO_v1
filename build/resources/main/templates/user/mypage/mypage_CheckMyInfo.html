@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypageMain</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/mypagemain.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/header.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/footer.css}">
+
+</head>
+<body>
+
+    <div style="height: 340px; width: 1440px;">
+        <header th:replace="user/common/header :: headerFragment">
+
+        </header>
+    </div>
+
+    <main style="height: 850px; width: 1440px;">
+        <div class="mypageSM" style="float: left; width: 20%; height: 850px;">
+            <!-- 서포터 메이커 마이페이지 이동 버튼-->
+            <div class="toggleButton">
+                <button id="supporterButton" onclick="location.href='/user/mypage/mypageMain'">서포터</button>
+                <button id="makerButton" onclick="location.href='/user/mypage/mypageMain_Maker'">메이커</button>
+            </div>
+            <!-- 프로필 사진 -->
+            <div class="profileImg">
+                <em class="inputProfileImage" style="background-image: url(/images/user/common/myPageProfile02.png);"></em>
+                
+                <div>
+                    <button class="changeImage" style="cursor: pointer;">변경하기</button>
+                </div>
+            </div>
+            <!-- 포인트 -->
+            <div class="pointBox">
+                <input type="text" name="point" id="point" value="여기에 회원 포인트 들어감">
+            </div>
+        </div>
+
+        <div style="float: left; width: 80%; height: 850px;">
+            <div class="myprofile_activity">
+                <h3>내정보 조회</h3>
+                <hr style="float: left; width: 60%;"><br>
+                <form action="/update_info" method="post">
+                    <label for="userName"><strong>이름</strong></label><br>
+                    <p style="margin-bottom: 0px;">userName</p>
+                    <hr style="float: left; width: 50%;"><br>
+                    
+                    <label for="userId"><strong>아이디</strong></label>
+                    <p style="margin-bottom: 0px;">userId</p>
+                    <hr style="float: left; width: 50%;"><br>
+                    
+                    <label for="userPwd"><strong>비밀번호</strong></label><br><br>
+                    <input type="password" id="new_password" name="new_password" value="userPwd"></input><br>
+                    <hr style="float: left; width: 50%;"><br>
+                    
+                    <label for="userPnumber"><strong>전화번호</strong></label><br><br>
+                    <input type="tel" id="new_userPnumber" name="new_password" value="userPnumber"></input><br>
+                    <hr style="float: left; width: 50%;"><br>
+                    
+                    <label for="userGender"><strong>성별</strong></label><br><br>
+                    <label for="male">남성</label>
+                    <input type="radio" id="male" name="gender" checked="userGender">
+                    <label for="male">여성</label>
+                    <input type="radio" id="female" name="gender" value="userGender"><br>
+                    <hr style="float: left; width: 50%;"><br>
+                    
+                    <label for="userBirth"><strong>생년월일</strong></label><br><br>
+                    <select class="birthBox" id="birth-year">
+                        <option disabled selected>년도</option>
+                    </select>
+                    <!-- 월 -->
+                    <select class="birthBox" id="birth-month">
+                        <option disabled selected>월</option>
+                    </select>
+                    <!-- 일 -->
+                    <select class="birthBox" id="birth-day">
+                        <option disabled selected>일</option>
+                    </select>
+                    <br>
+                    <hr style="float: left; width: 50%;"><br>
+                </form>
+            </div>
+
+            <div id="userinfo_button">
+                <button class="delete_userinfo" onclick="openDeleteModal()">회원탈퇴</button>
+                <button class="modify_userinfo" onclick="openSaveModal()">저장하기</button>
+            </div>
+
+            <div id="savemodal" class="modal" style="display: none;">
+                <div class="modal_content">
+                    <p>변경 사항을 저장하시겠습니까?</p>
+                    <button id="save_button" onclick="saveChanges()">네</button>
+                    <button id="cancel_button" onclick="closeSaveModal()">아니오</button>
+                </div>
+            </div>
+
+            <div id="deletemodal" class="modal" style="display: none;">
+                <div class="modal_content">
+                    <p>정말 탈퇴 하시겠습니까?</p>
+                    <button id="delete_button" onclick="saveDelete()">네</button>
+                    <button id="delete_cancel_button" onclick="closeDeleteModal()">아니오</button>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            function openSaveModal() {
+                document.getElementById("savemodal").style.display = "block";
+            }
+
+            function closeSaveModal() {
+                document.getElementById("savemodal").style.display = "none";
+            }
+
+            function saveChanges() {
+                // 저장된 정보를 조회페이지에 반영하는 로직 추가하면됨
+                alert("변경사항이 저장되었습니다.")
+                closeSaveModal();
+            }
+
+            function openDeleteModal() {
+                document.getElementById("deletemodal").style.display = "block";
+            }
+
+            function closeDeleteModal() {
+                document.getElementById("deletemodal").style.display = "none";
+            }
+
+            function saveDelete() {
+                // '네'를 누르면 탈퇴가 되어 로그아웃 되는 로직 추가
+                alert("탈퇴되었습니다.")
+                closeDeleteModal();
+                location.href='메인페이지로 이동';
+            }
+        </script>
+
+    </main>
+
+    <div style="height: 322px; width: 1440px;">
+        <footer th:replace="user/common/footer :: footerFragment">
+
+        </footer>
+    </div>
+
+</body>
+</html>

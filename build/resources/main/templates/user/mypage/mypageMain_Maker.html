@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypageMain_Maker</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/mypagemain.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/header.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/footer.css}">
+
+</head>
+<body>
+
+    <div style="height: 340px; width: 1440px;">
+        <header th:replace="user/common/header :: headerFragment">
+
+        </header>
+    </div>
+
+    <main style="height: 850px; width: 1440px;">
+        <div class="mypageSM" style="float: left; width: 40%; height: 850px;">
+            <!-- 서포터 메이커 마이페이지 이동 버튼-->
+            <div class="toggleButton">
+                <button id="supporterButton" onclick="location.href='user/mypage/mypageMain'">서포터</button>
+                <button id="makerButton" onclick="location.href='user/mypage/mypageMain_Maker'">메이커</button>
+            </div>
+            <!-- 프로필 사진 -->
+            <div class="profileImg">
+                <em class="inputProfileImage" style="background-image: url(/images/user/common/myPageProfile02.png);"></em>
+            </div>
+            <!-- 포인트 -->
+            <div class="pointBox">
+                <input type="text" name="point" id="point" value="여기에 회원 포인트 들어감">
+            </div>
+        </div>
+        <div style="float: left; width: 30%; height: 850px;">
+            <div class="myprofile_activity">
+                <h3>나의 활동</h3>
+                <br><br>
+                <p class="myProject" onclick="location.href='/user/mypage/mypage_MyprojectList'" style="cursor: pointer">나의 프로젝트</p>
+                <p class="buyProject" onclick="location.href='8_mypage_SupportProject.html'" style="cursor: pointer">후원한 프로젝트</p>
+            </div>
+        </div>
+        <div style="float: left; width: 30%; height: 850px;">
+            <div class="myprofile_info">
+                <h3>내 정보</h3>
+                <br><br>
+                <p class="serchMyinfo" onclick="location.href='/user/mypage/mypage_CheckMyInfo'" style="cursor: pointer">내정보 조회</p>
+<!--                <p class="delivery" onclick="location.href=''">배송정보</p>-->
+            </div>
+        </div>
+    </main>
+
+    <div style="height: 322px; width: 1440px;">
+        <footer th:replace="user/common/footer :: footerFragment">
+
+        </footer>
+    </div>
+
+</body>
+</html>

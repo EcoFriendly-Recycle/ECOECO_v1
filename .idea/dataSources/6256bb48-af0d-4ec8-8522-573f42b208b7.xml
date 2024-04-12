@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="ecoeco@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
-    <root id="1"/>
+    <root id="1">
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>8.0.33</ServerVersion>
+    </root>
     <collation id="2" parent="1" name="armscii8_bin">
       <Charset>armscii8</Charset>
     </collation>
@@ -903,7 +907,7 @@
     </collation>
     <schema id="288" parent="1" name="ecoeco">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-04-09.01:34:59</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-04-12.09:32:56</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="289" parent="1" name="employee">

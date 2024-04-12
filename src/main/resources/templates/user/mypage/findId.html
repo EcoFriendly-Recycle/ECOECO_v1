@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>findId</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/searchid.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/footer.css}">
+
+</head>
+<body>
+    <header style="height: 203px; width: 1440px;">
+        <div class="middle">
+            <div class="logo">
+                <img src="/images/user/common/ecoeco_logo.png" alt="에코에코 로고">
+            </div>
+        </div>
+    </header>
+
+    <main style="width: 1440px;">
+        <div style="position: relative; left: 20%;">
+            <h2>아이디 찾기</h2>
+            <hr style="text-align: left; margin-left: 0px; width: 60%;">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="searchidBox">
+            <div>
+                <input class="searchIdName" type="text" placeholder="이름을 입력해 주세요">
+            </div>
+            <br>
+            <div>
+                <input class="searchIdEmail" type="text" placeholder="이메일을 입력해 주세요">
+            </div>
+            <br><br>
+            <button class="searchIdButton">아이디 찾기</button>
+        </div>
+    </main>
+
+    <div style="height: 322px; width: 1440px;">
+        <footer th:replace="user/common/footer :: footerFragment" >
+
+        </footer>
+    </div>
+
+</body>
+</html>

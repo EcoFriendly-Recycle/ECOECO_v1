@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/mypagemain.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/header.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/footer.css}">
+
+</head>
+<body>
+
+    <div style="height: 340px; width: 1440px;">
+        <header th:replace="user/common/header :: headerFragment">
+
+        </header>
+    </div>
+
+    <main style="height: 850px; width: 1440px;">
+        <div>
+            <div class="mypageSM" style="float: left; width: 20%; height: 850px;">
+                <!-- 서포터 메이커 마이페이지 이동 버튼-->
+                <div class="toggleButton">
+                    <button id="supporterButton" onclick="location.href='user/mypage/mypageMain'">서포터</button>
+                    <button id="makerButton" onclick="location.href='user/mypage/mypageMain_Maker'">메이커</button>
+                </div>
+                <!-- 프로필 사진 -->
+                <div class="profileImg">
+                    <em class="inputProfileImage" style="background-image: url(/images/user/common/myPageProfile02.png);"></em>
+                </div>
+                <!-- 포인트 -->
+                <div class="pointBox">
+                    <input type="text" name="point" id="point" value="여기에 회원 포인트 들어감">
+                </div>
+            </div>
+
+            <div style="float: left; width: 80%; height: 850px;">
+                <div class="detailBarBox">
+                    <table class="myprojectDetailBar" style="width: 80%; margin-top: 50px;">
+                        <tr>
+                            <td>프로젝트정보</td>
+                            <td>스토리</td>
+                            <td onclick="location.href='/user/mypage/news'">새소식</td>
+                            <td onclick="location.href='20_mypage_Cheer_Review.html'">응원/리뷰</td>
+                            <td style="border-right: none;">리워드정보</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style="margin-top: 50px;">
+                    <h2 style="width: 500px; display: inline;">새소식</h2>
+                    <button class="registNewsButton" onclick="location.href='/user/mypage/registNews'">새소식 등록</button>
+                    <hr style="text-align: left; margin-left: 0px; width: 70%;"><br>                     
+                </div>
+                
+                <div> 
+                    <div>
+                        <sub>리워드안내</sub>
+                        <p style="margin: 0px; cursor: pointer;" onclick="location.href='/user/mypage/registNewsDetail'">대충 집에 가고 싶다는 내용</p>
+                        <sup>Date</sup>
+                        <hr style="text-align: left; margin-left: 0px; margin-top: 0px; width: 70%; border-style: dashed;">
+                    </div>
+                    <div>
+                        <sub>리워드안내</sub>
+                        <p style="margin: 0px;">대충 집에 가고 싶다는 내용</p>
+                        <sup>Date</sup>
+                        <hr style="text-align: left; margin-left: 0px; margin-top: 0px; width: 70%; border-style: dashed;">
+                    </div>
+                    <div>
+                        <sub>리워드안내</sub>
+                        <p style="margin: 0px;">대충 집에 가고 싶다는 내용</p>
+                        <sup>Date</sup>
+                        <hr style="text-align: left; margin-left: 0px; margin-top: 0px; width: 70%; border-style: dashed;">
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </main>
+
+    <div style="height: 322px; width: 1440px;">
+        <footer th:replace="user/common/footer :: footerFragment">
+
+        </footer>
+    </div>
+
+</body>
+</html>             

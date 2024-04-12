@@ -48,20 +48,24 @@ public class SecurityConfig {
             auth.requestMatchers("/auth/*", "/common/*","/configuration/*","/manager/*", "/user/*").permitAll();
 //            auth.anyRequest().authenticated();
             auth.anyRequest().permitAll();
+
                 }).formLogin( login -> {
                     login.loginPage("/auth/login");
                     login.usernameParameter("user");
                     login.passwordParameter("pass");
                     login.defaultSuccessUrl("/", true);
                     login.failureHandler(authFailHandler);
+
                 }).logout( logout -> {
                     logout.logoutRequestMatcher(new AntPathRequestMatcher("/auth/logout"));
                     logout.deleteCookies("JSESSIONID");
                     logout.invalidateHttpSession(true);
                     logout.logoutSuccessUrl("/");
+
                 }).sessionManagement( session -> {
                     session.maximumSessions(1);
                     session.invalidSessionUrl("/");
+
                 })
                 .csrf(csrf -> csrf.disable());
 

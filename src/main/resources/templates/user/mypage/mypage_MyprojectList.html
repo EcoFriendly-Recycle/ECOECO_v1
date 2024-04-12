@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypage_MyprojectList</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/mypage/mypagemain.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/header.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/user/footer.css}">
+
+</head>
+<body>
+
+    <div style="height: 340px; width: 1440px;">
+        <header th:replace="user/common/header :: headerFragment">
+
+        </header>
+    </div>
+
+    <main style="height: 850px; width: 1440px;">
+        <div class="mypageSM" style="float: left; width: 20%; height: 850px;">
+            <!-- 서포터 메이커 마이페이지 이동 버튼-->
+            <div class="toggleButton">
+                <button id="supporterButton" onclick="location.href='/user/mypage/mypageMain'">서포터</button>
+                <button id="makerButton" onclick="location.href='/user/mypage/mypageMain_Maker'">메이커</button>
+            </div>
+            <!-- 프로필 사진 -->
+            <div class="profileImg">
+                <em class="inputProfileImage" style="background-image: url(/images/user/common/myPageProfile02.png);"></em>
+            </div>
+            <!-- 포인트 -->
+            <div class="pointBox">
+                <input type="text" name="point" id="point" value="여기에 회원 포인트 들어감">
+            </div>
+        </div>
+
+        <div style="float: left; width: 80%; height: 850px;">
+            <div>
+                <h2>나의 프로젝트</h2>
+                <hr style="text-align: left; margin-left: 0px; width: 70%;"><br>
+            </div>
+
+            <div>
+                <table id="myproject_List_table">
+                    <tr class="myproject_List_title">
+                        <th scope="col">프로젝트번호</th>
+                        <th scope="col">프로젝트명</th>
+                        <th scope="col">수수료</th>
+                        <th scope="col">목표금액</th>
+                        <th scope="col">달성액</th>
+                        <th scope="col">시작일</th>
+                        <th scope="col">종료일</th>
+                        <th scope="col">마감일</th>                    
+                    </tr>
+                    <tr class="myproject_List_detail" onclick="location.href='/user/mypage/mypage_MyprojectList_Detail'" style="cursor: pointer;">
+                        <td>projectNo</td>
+                        <td>projectName</td>
+                        <td>serviceCharge</td>
+                        <td>targetAmount</td>
+                        <td>achievedAmount</td>
+                        <td>startDate</td>
+                        <td>endDate</td>
+                        <td>dueDate</td>
+                    </tr>                
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <div style="height: 322px; width: 1440px;">
+        <footer th:replace="user/common/footer :: footerFragment">
+
+        </footer>
+    </div>
+
+</body>
+</html>
